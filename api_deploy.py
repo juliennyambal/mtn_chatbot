@@ -1,9 +1,7 @@
 from flask import Flask, request, jsonify
-from transformers import pipeline
 from inference import Infere
 
 app = Flask(__name__)
-# classifier = pipeline('text-classification', model='./fine-tuned-tinybert')
 
 @app.route('/predict', methods=['POST'])
 def predict():
