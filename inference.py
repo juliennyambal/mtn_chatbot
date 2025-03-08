@@ -52,5 +52,3 @@ if __name__ == "__main__":
         print(f"Mapped action: {mapped_result['action']}")
         print(f"Confidence: {mapped_result['confidence']:.4f}")
         print("-" * 50)
-
-#
