@@ -7,7 +7,7 @@ app = Flask(__name__)
 def predict():
     data = request.json
     user_query = data['query']
-    mapped_result = Infere.predict(user_query)
+    mapped_result = Infere().predict(user_query)
     return jsonify(mapped_result)
 
 if __name__ == '__main__':
