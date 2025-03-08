@@ -42,11 +42,15 @@ test_queries = [
     "I want to send 61 ZAR to David"
 ]
 
-for query in test_queries:
-    result, mapped_result = Infere.predict(query)
-    
-    print(f"Query: {query}")
-    print(f"Raw result: {result}")
-    print(f"Mapped action: {mapped_result['action']}")
-    print(f"Confidence: {mapped_result['confidence']:.4f}")
-    print("-" * 50)
+
+if __name__ == "__main__":
+    for query in test_queries:
+        result, mapped_result = Infere.predict(query)
+        
+        print(f"Query: {query}")
+        print(f"Raw result: {result}")
+        print(f"Mapped action: {mapped_result['action']}")
+        print(f"Confidence: {mapped_result['confidence']:.4f}")
+        print("-" * 50)
+
+#
