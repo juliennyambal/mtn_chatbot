@@ -4,6 +4,11 @@ from datasets import load_dataset
 
 # Load OPT-125M
 model_name = "facebook/opt-125m"
+FINETUNED_MODEL = "./fine-tuned-opt-125m"
+DATASET = 'mtn_chatbot_dataset.json'
+TRAINING_LOGS = "./logs"
+TRAINING_RESULTS = "./results"
+
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
@@ -12,7 +17,7 @@ if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 # Load your dataset
-dataset = load_dataset('json', data_files='mtn_chatbot_dataset.json')
+dataset = load_dataset('json', data_files = DATASET)
 
 # Print dataset info to understand structure
 print("Dataset structure:", dataset)
@@ -70,13 +75,13 @@ data_collator = DataCollatorForLanguageModeling(
 
 # Define training arguments
 training_args = TrainingArguments(
-    output_dir="./results",
+    output_dir=TRAINING_RESULTS,
     per_device_train_batch_size=10,
     num_train_epochs=10,
     learning_rate=1e-5,
     save_steps=500,
     save_total_limit=2,
-    logging_dir="./logs",
+    logging_dir=TRAINING_LOGS,
     logging_steps=10,
 )
 
@@ -91,5 +96,5 @@ trainer = Trainer(
 # Fine-tune the model
 trainer.train()
 
-model.save_pretrained("./fine-tuned-opt-125m")
-tokenizer.save_pretrained("./fine-tuned-opt-125m")
+model.save_pretrained(FINETUNED_MODEL)
+tokenizer.save_pretrained(FINETUNED_MODEL)

@@ -1,12 +1,14 @@
 from transformers import pipeline, AutoTokenizer
 
+FINETUNED_MODEL = "./fine-tuned-opt-125m"
+
 # Load the tokenizer from the fine-tuned model directory
-tokenizer = AutoTokenizer.from_pretrained("./fine-tuned-opt-125m")
+tokenizer = AutoTokenizer.from_pretrained(FINETUNED_MODEL)
 
 # Load the fine-tuned model
 classifier = pipeline(
     "text-generation",
-    model="./fine-tuned-opt-125m",
+    model=FINETUNED_MODEL,
     tokenizer=tokenizer,
     device=-1  # Use CPU
 )
@@ -15,8 +17,7 @@ class Infere:
 
     # Function to map label to action
     @staticmethod
-    def predict(prompt):
-        query = "I need to send money to my friend, Marc"
+    def predict(query):
         prompt = f"Classify the intent and extract parameters from the user query.\n{query}"
         # Generate response with adjusted parameters
         response = classifier(
