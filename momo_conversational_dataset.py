@@ -162,8 +162,15 @@ def clean_conversations(dataset):
 
     return Dataset.from_list(new_rows)
 
-dataset_created = load_mtn_mobile_money_dataset()
-sharegpt_dataset = create_conversation_pairs(dataset_created)
-print("Cleaning conversations...")
-cleaned_dataset = clean_conversations(sharegpt_dataset)
-print(clean_conversations)
+def main():
+    print("Loading dataset...")
+    dataset_created = load_mtn_mobile_money_dataset()
+    print("Number of rows: ", len(dataset_created))
+    print("Creating conversation pairs...")
+    sharegpt_dataset = create_conversation_pairs(dataset_created)
+    print("Cleaning conversations...")
+    cleaned_dataset = clean_conversations(sharegpt_dataset)
+    cleaned_dataset.to_csv("sharegpt_momo_dataset.csv")
+
+if __name__ == "__main__":
+    main()
