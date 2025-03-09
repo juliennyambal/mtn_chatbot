@@ -28,13 +28,13 @@ Output: Based on your transaction history, you qualify for a loan of up to UGX 3
 def load_mtn_mobile_money_dataset(dataset_location='momo_conversations.csv'):
     """Loads the MTN Mobile Money conversation dataset.
 
-    This function loads the MTN Mobile Money conversation dataset from the specified 
+    This function loads the MTN Mobile Money conversation dataset from the specified
     source, which contains customer-bot interactions related to mobile money services in Uganda.
 
     Returns:
         datasets.Dataset: A dataset containing MTN Mobile Money conversations.
-            The dataset includes columns for dialogue, speaker (Customer/Bot), 
-            scenario type (Savings, Loans, Remittance, Money Transfers, Account Status), 
+            The dataset includes columns for dialogue, speaker (Customer/Bot),
+            scenario type (Savings, Loans, Remittance, Money Transfers, Account Status),
             and conversation ID.
     """
     # Load the local CSV file
@@ -44,8 +44,8 @@ def load_mtn_mobile_money_dataset(dataset_location='momo_conversations.csv'):
 def create_conversation_pairs(dataset):
     """Creates conversation pairs from the MTN Mobile Money conversation dataset.
 
-    This function processes the dataset to create conversation pairs where a Customer 
-    message is followed by the Bot's response. Each conversation includes a system prompt 
+    This function processes the dataset to create conversation pairs where a Customer
+    message is followed by the Bot's response. Each conversation includes a system prompt
     defining the Bot's personality and purpose.
 
     Args:
@@ -65,21 +65,21 @@ def create_conversation_pairs(dataset):
     new_rows = []
     # Group by conversation_id to handle multi-turn conversations
     conversation_groups = {}
-    
+
     for i in tqdm(range(len(dataset))):
         row = dataset[i]
         conv_id = row["conversation_id"]
-        
+
         if conv_id not in conversation_groups:
             conversation_groups[conv_id] = []
         conversation_groups[conv_id].append(row)
-    
+
     # Process each conversation
     for conv_id, conversation in conversation_groups.items():
         for i in range(len(conversation) - 1):
             current_row = conversation[i]
             next_row = conversation[i + 1]
-            
+
             if current_row["speaker"] == "Customer" and next_row["speaker"] == "Bot":
                 new_rows.append(
                     {
@@ -91,7 +91,7 @@ def create_conversation_pairs(dataset):
                         "scenario_type": current_row["scenario_type"]
                     }
                 )
-    
+
     return Dataset.from_list(new_rows)
 
 def clean_dialogue(text, system_prompt):
@@ -111,7 +111,7 @@ def clean_dialogue(text, system_prompt):
             {"role": "user", "content": text.strip()},
         ]  # Lower temperature for more deterministic responses
     )
-    
+
     return response["message"]["content"]  # Extracts the chatbot's reply
 
 
@@ -170,7 +170,7 @@ def main():
     sharegpt_dataset = create_conversation_pairs(dataset_created)
     print("Cleaning conversations...")
     cleaned_dataset = clean_conversations(sharegpt_dataset)
-    cleaned_dataset.to_csv("sharegpt_momo_dataset.csv")
+    cleaned_dataset.save_to_disk("/content/mtn_bot_dataset/sharegpt_momo_dataset")
 
 if __name__ == "__main__":
     main()
