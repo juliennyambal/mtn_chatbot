@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+unsloth_compiled_cache/
+mtn_bot_dataset/
+output/
+
+
 # C extensions
 *.so
 fine-tuned*

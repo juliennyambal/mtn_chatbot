@@ -13,7 +13,7 @@ def main():
     model = setup_peft_model(model)
 
     # Create save directory
-    save_path = "/content/mtn_momo_model"
+    save_path = "./mtn_momo_model"
     os.makedirs(save_path, exist_ok=True)
 
     # Train model
