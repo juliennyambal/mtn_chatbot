@@ -14,6 +14,7 @@ def initialize_model():
         max_seq_length=MAX_SEQ_LENGTH,
         load_in_4bit=MODEL_CONFIG["load_in_4bit"],
         dtype=MODEL_CONFIG["dtype"],
+        device_map="cuda:0"
     )
     return model, tokenizer
 

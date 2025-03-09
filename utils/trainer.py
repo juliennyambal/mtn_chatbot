@@ -1,14 +1,10 @@
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 from transformers import TrainingArguments
 from trl import SFTTrainer
-from constants import MAX_SEQ_LENGTH, TRAINING_ARGS
-from exceptions import UnslothNotInstalledError
-
-try:
-    from unsloth import standardize_sharegpt, apply_chat_template, is_bfloat16_supported  # type: ignore
-except ImportError:
-    raise UnslothNotInstalledError
-
+from utils.trainer import *
+from utils.constants import *
+from utils.model_utils import *
+from unsloth import standardize_sharegpt, apply_chat_template, is_bfloat16_supported
 
 class ModelTrainer:
     def __init__(self, model, tokenizer):
@@ -16,9 +12,7 @@ class ModelTrainer:
         self.tokenizer = tokenizer
 
     def _load_dataset(self):
-        dataset = load_dataset(
-            "theneuralmaze/rick-and-morty-transcripts-sharegpt", split="train"
-        )
+        dataset = load_from_disk("mtn_bot_dataset/sharegpt_momo_dataset")
         return standardize_sharegpt(dataset)
 
     def _prepare_dataset(self, dataset):
