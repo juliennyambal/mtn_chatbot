@@ -22,8 +22,12 @@ def main():
     trainer_instance.train()
 
     # Save the trained model
-    model.save_pretrained(save_path)
-    tokenizer.save_pretrained(save_path)
+    # Push to hub
+    model.push_to_hub_gguf(
+        "JulienNyambal/mtn_momo_bot",
+        tokenizer,
+        token=os.getenv("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"),
+    )
 
     # Remove any disk_offload calls here
 
