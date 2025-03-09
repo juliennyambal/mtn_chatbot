@@ -170,7 +170,7 @@ def main():
     sharegpt_dataset = create_conversation_pairs(dataset_created)
     print("Cleaning conversations...")
     cleaned_dataset = clean_conversations(sharegpt_dataset)
-    cleaned_dataset.save_to_disk("/content/mtn_bot_dataset/sharegpt_momo_dataset")
+    cleaned_dataset.save_to_disk("./mtn_bot_dataset/sharegpt_momo_dataset")
 
 if __name__ == "__main__":
     main()
