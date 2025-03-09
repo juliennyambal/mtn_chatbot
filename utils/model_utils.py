@@ -1,5 +1,5 @@
-from exceptions import UnslothNotInstalledError
-from constants import MAX_SEQ_LENGTH, MODEL_CONFIG, PEFT_CONFIG
+from utils.exceptions import UnslothNotInstalledError
+from utils.constants import MAX_SEQ_LENGTH, MODEL_CONFIG, PEFT_CONFIG
 
 try:
     from unsloth import FastLanguageModel  # type: ignore
