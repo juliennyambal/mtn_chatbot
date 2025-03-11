@@ -1,28 +1,28 @@
 row_index,conversation_id,scenario_type,speaker,dialogue
-1,S001,Savings,Customer,Hello, I want to save some money with MTN MoKash. How does it work?
-2,S001,Savings,Bot,Welcome to MTN MoKash! You can save money and earn interest of up to 5% per year. You can deposit as little as UGX 500, and your savings are secure. Would you like me to help you set up a savings goal or make a deposit?
-3,S001,Savings,Customer,I'd like to save UGX 100,000 for my daughter's school fees in 3 months. Can I set that as a goal?
-4,S001,Savings,Bot,Absolutely! I can help you create a school fees savings goal. With a target of UGX 100,000 in 3 months, you would need to save approximately UGX 33,334 per month to reach your goal. Would you like to set up automatic deposits or manual deposits?
-5,S001,Savings,Customer,I prefer automatic deposits every week from my MTN Mobile Money wallet. Is that possible?
-6,S001,Savings,Bot,Yes, we can set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash savings account. This will help you reach your UGX 100,000 goal in 3 months. Should I set this up for you now?
-7,S001,Savings,Customer,Yes, please go ahead.
-8,S001,Savings,Bot,To confirm, I'll set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash account for your daughter's school fees goal. Please enter your Mobile Money PIN to authorize this setup.
-9,S001,Savings,Customer,I've entered my PIN.
-10,S001,Savings,Bot,Thank you! Your automatic savings plan has been set up successfully. Deposits of UGX 8,334 will be made every Monday starting next week. You'll receive SMS notifications for each transaction. You can check your savings progress anytime by dialing *165# and selecting MoKash. Is there anything else you'd like to know about your savings plan?
-11,S001,Savings,Customer,What happens if I need to withdraw before the 3 months are up?
-12,S001,Savings,Bot,You can withdraw from your MoKash savings account at any time by dialing *165# and selecting MoKash > Withdraw. There are no penalties for early withdrawal, but remember that the longer you save, the more interest you earn. Interest is calculated daily and paid monthly. Would you like to know about our higher interest rate options for longer-term savings?
-13,S001,Savings,Customer,No, that's all I needed for now. Thank you.
-14,S001,Savings,Bot,You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster. Based on your savings goal for school fees, you might also be interested in our education insurance products. Would you like to learn more about protecting your daughter's education?
-15,S001,Savings,Customer,Not right now, maybe next time.
-16,S001,Savings,Bot,No problem. Thank you for choosing MTN MoKash for your savings needs. Is there anything else I can assist you with today?
-17,S002,Savings,Customer,How much interest can I earn on my savings with MTN?
-18,S002,Savings,Bot,With MTN MoKash, you can earn up to 5% interest per year on your savings. The interest rate depends on how long you save and how much you save. For regular savings, the rate is 3%, but if you commit to saving for at least 6 months, you can earn the full 5%. Interest is calculated daily and paid to your account monthly. Would you like to know more about our saving options?
-19,S002,Savings,Customer,Does the 5% apply to any amount I save?
-20,S002,Savings,Bot,Yes, the 5% annual interest applies to any amount you save with our term deposit option, starting from as little as UGX 1,000. There is no upper limit. However, to qualify for the 5% rate, you need to commit to saving for at least 6 months. For flexible savings with no time commitment, the rate is 3% per year. Would you like to calculate how much interest you could earn with a specific amount?
-21,S002,Savings,Customer,Yes, please. If I save UGX 500,000 for one year.
-22,S002,Savings,Bot,For a savings amount of UGX 500,000 saved for one year at 5% annual interest, you would earn approximately UGX 25,000 in interest. This would bring your total to UGX 525,000 after one year. This calculation assumes you make a single deposit and don't withdraw during the period. Would you like to start a term deposit with this amount?
-23,S002,Savings,Customer,That sounds good. How do I start?
-24,S002,Savings,Bot,Great! To start your term deposit of UGX 500,000 for one year at 5% interest, follow these steps:
+1,S001,Savings,Customer,"Hello, I want to save some money with MTN MoKash. How does it work?"
+2,S001,Savings,Bot,"Welcome to MTN MoKash! You can save money and earn interest of up to 5% per year. You can deposit as little as UGX 500, and your savings are secure. Would you like me to help you set up a savings goal or make a deposit?"
+3,S001,Savings,Customer,"I'd like to save UGX 100,000 for my daughter's school fees in 3 months. Can I set that as a goal?"
+4,S001,Savings,Bot,"Absolutely! I can help you create a school fees savings goal. With a target of UGX 100,000 in 3 months, you would need to save approximately UGX 33,334 per month to reach your goal. Would you like to set up automatic deposits or manual deposits?"
+5,S001,Savings,Customer,"I prefer automatic deposits every week from my MTN Mobile Money wallet. Is that possible?"
+6,S001,Savings,Bot,"Yes, we can set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash savings account. This will help you reach your UGX 100,000 goal in 3 months. Should I set this up for you now?"
+7,S001,Savings,Customer,"Yes, please go ahead."
+8,S001,Savings,Bot,"To confirm, I'll set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash account for your daughter's school fees goal. Please enter your Mobile Money PIN to authorize this setup."
+9,S001,Savings,Customer,"I've entered my PIN."
+10,S001,Savings,Bot,"Thank you! Your automatic savings plan has been set up successfully. Deposits of UGX 8,334 will be made every Monday starting next week. You'll receive SMS notifications for each transaction. You can check your savings progress anytime by dialing *165# and selecting MoKash. Is there anything else you'd like to know about your savings plan?"
+11,S001,Savings,Customer,"What happens if I need to withdraw before the 3 months are up?"
+12,S001,Savings,Bot,"You can withdraw from your MoKash savings account at any time by dialing *165# and selecting MoKash > Withdraw. There are no penalties for early withdrawal, but remember that the longer you save, the more interest you earn. Interest is calculated daily and paid monthly. Would you like to know about our higher interest rate options for longer-term savings?"
+13,S001,Savings,Customer,"No, that's all I needed for now. Thank you."
+14,S001,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster. Based on your savings goal for school fees, you might also be interested in our education insurance products. Would you like to learn more about protecting your daughter's education?"
+15,S001,Savings,Customer,"Not right now, maybe next time."
+16,S001,Savings,Bot,"No problem. Thank you for choosing MTN MoKash for your savings needs. Is there anything else I can assist you with today?"
+17,S002,Savings,Customer,"How much interest can I earn on my savings with MTN?"
+18,S002,Savings,Bot,"With MTN MoKash, you can earn up to 5% interest per year on your savings. The interest rate depends on how long you save and how much you save. For regular savings, the rate is 3%, but if you commit to saving for at least 6 months, you can earn the full 5%. Interest is calculated daily and paid to your account monthly. Would you like to know more about our saving options?"
+19,S002,Savings,Customer,"Does the 5% apply to any amount I save?"
+20,S002,Savings,Bot,"Yes, the 5% annual interest applies to any amount you save with our term deposit option, starting from as little as UGX 1,000. There is no upper limit. However, to qualify for the 5% rate, you need to commit to saving for at least 6 months. For flexible savings with no time commitment, the rate is 3% per year. Would you like to calculate how much interest you could earn with a specific amount?"
+21,S002,Savings,Customer,"Yes, please. If I save UGX 500,000 for one year."
+22,S002,Savings,Bot,"For a savings amount of UGX 500,000 saved for one year at 5% annual interest, you would earn approximately UGX 25,000 in interest. This would bring your total to UGX 525,000 after one year. This calculation assumes you make a single deposit and don't withdraw during the period. Would you like to start a term deposit with this amount?"
+23,S002,Savings,Customer,"That sounds good. How do I start?"
+24,S002,Savings,Bot,"Great! To start your term deposit of UGX 500,000 for one year at 5% interest, follow these steps:
 
 1. Dial *165# on your phone
 2. Select option 5 for 'MoKash'
@@ -32,30 +32,30 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 6. Select 12 months as your term
 7. Confirm the transaction with your Mobile Money PIN
 
-Would you like me to guide you through this process now?
-25,S002,Savings,Customer,Yes, please guide me through it.
-26,S002,Savings,Bot,Please dial *165# on your phone now. When the menu appears, press 5 for 'MoKash' and I'll guide you through each step.
-27,S002,Savings,Customer,I've selected MoKash.
-28,S002,Savings,Bot,Great! Now select option 1 for 'Savings'.
-29,S002,Savings,Customer,Done.
-30,S002,Savings,Bot,Perfect. Now select option 3 for 'Term Deposit'.
-31,S002,Savings,Customer,Selected.
-32,S002,Savings,Bot,Now enter 500000 for your deposit amount.
-33,S002,Savings,Customer,Entered UGX 500,000.
-34,S002,Savings,Bot,Excellent. Now select option 4 for '12 months' as your term.
-35,S002,Savings,Customer,Selected 12 months.
-36,S002,Savings,Bot,Now please review the details: UGX 500,000 for 12 months at 5% interest. If everything looks correct, confirm the transaction by entering your Mobile Money PIN.
-37,S002,Savings,Customer,I've confirmed with my PIN.
-38,S002,Savings,Bot,Congratulations! Your term deposit has been set up successfully. UGX 500,000 has been transferred from your Mobile Money wallet to your MoKash term deposit account. Your deposit will mature on March 11, 2026, with an expected interest of UGX 25,000. You'll receive monthly updates on your interest earned. Based on your savings behavior, you might also be interested in our investment options. Would you like to learn about MTN's partnership with Unit Trust of Uganda for higher-return investments?
+Would you like me to guide you through this process now?"
+25,S002,Savings,Customer,"Yes, please guide me through it."
+26,S002,Savings,Bot,"Please dial *165# on your phone now. When the menu appears, press 5 for 'MoKash' and I'll guide you through each step."
+27,S002,Savings,Customer,"I've selected MoKash."
+28,S002,Savings,Bot,"Great! Now select option 1 for 'Savings'."
+29,S002,Savings,Customer,"Done."
+30,S002,Savings,Bot,"Perfect. Now select option 3 for 'Term Deposit'."
+31,S002,Savings,Customer,"Selected."
+32,S002,Savings,Bot,"Now enter 500000 for your deposit amount."
+33,S002,Savings,Customer,"Entered UGX 500,000."
+34,S002,Savings,Bot,"Excellent. Now select option 4 for '12 months' as your term."
+35,S002,Savings,Customer,"Selected 12 months."
+36,S002,Savings,Bot,"Now please review the details: UGX 500,000 for 12 months at 5% interest. If everything looks correct, confirm the transaction by entering your Mobile Money PIN."
+37,S002,Savings,Customer,"I've confirmed with my PIN."
+38,S002,Savings,Bot,"Congratulations! Your term deposit has been set up successfully. UGX 500,000 has been transferred from your Mobile Money wallet to your MoKash term deposit account. Your deposit will mature on March 11, 2026, with an expected interest of UGX 25,000. You'll receive monthly updates on your interest earned. Based on your savings behavior, you might also be interested in our investment options. Would you like to learn about MTN's partnership with Unit Trust of Uganda for higher-return investments?"
 
-39,S003,Savings,Customer,Can I save money for my children's future with MTN?
-40,S003,Savings,Bot,Absolutely! MTN offers several options for saving for your children's future. Our most popular is the MoKash Education Savings Plan, which helps you save specifically for education expenses with competitive interest rates. We also have general-purpose savings accounts that you can dedicate to your children. How many children are you saving for, and what are their ages?
-41,S003,Savings,Customer,I have two children, ages 5 and 8. I want to save for their secondary school education.
-42,S003,Savings,Bot,Thank you for sharing. For children aged 5 and 8 preparing for secondary education, I recommend our Education Savings Plan. This allows you to set specific goals for each child with a timeline matching when they'll enter secondary school. 
+39,S003,Savings,Customer,"Can I save money for my children's future with MTN?"
+40,S003,Savings,Bot,"Absolutely! MTN offers several options for saving for your children's future. Our most popular is the MoKash Education Savings Plan, which helps you save specifically for education expenses with competitive interest rates. We also have general-purpose savings accounts that you can dedicate to your children. How many children are you saving for, and what are their ages?"
+41,S003,Savings,Customer,"I have two children, ages 5 and 8. I want to save for their secondary school education."
+42,S003,Savings,Bot,"Thank you for sharing. For children aged 5 and 8 preparing for secondary education, I recommend our Education Savings Plan. This allows you to set specific goals for each child with a timeline matching when they'll enter secondary school. 
 
-For your 8-year-old, you have about 5 years until secondary school, and for your 5-year-old, about 8 years. With our 5% annual interest rate on committed savings, you can build substantial funds for their education. How much would you like to save monthly for each child?
-43,S003,Savings,Customer,I can save UGX 50,000 per month for each child. Is that enough?
-44,S003,Savings,Bot,Saving UGX 50,000 monthly for each child is a great start! Let me show you what that could grow to:
+For your 8-year-old, you have about 5 years until secondary school, and for your 5-year-old, about 8 years. With our 5% annual interest rate on committed savings, you can build substantial funds for their education. How much would you like to save monthly for each child?"
+43,S003,Savings,Customer,"I can save UGX 50,000 per month for each child. Is that enough?"
+44,S003,Savings,Bot,"Saving UGX 50,000 monthly for each child is a great start! Let me show you what that could grow to:
 
 For your 8-year-old (5 years of saving):
 - Monthly deposit: UGX 50,000
@@ -65,48 +65,48 @@ For your 5-year-old (8 years of saving):
 - Monthly deposit: UGX 50,000
 - After 8 years: Approximately UGX 5,800,000 (including interest)
 
-These amounts could cover a significant portion of secondary school fees. Would you like to set up these Education Savings Plans now?
-45,S003,Savings,Customer,Yes, I'd like to set them up. Can I name each account with my children's names?
-46,S003,Savings,Bot,Yes, you can definitely label each savings account with your children's names. This makes it easier to track their individual progress. What are your children's names?
-47,S003,Savings,Customer,My 8-year-old is David and my 5-year-old is Sarah.
-48,S003,Savings,Bot,Thank you. I'll set up two Education Savings Plans:
+These amounts could cover a significant portion of secondary school fees. Would you like to set up these Education Savings Plans now?"
+45,S003,Savings,Customer,"Yes, I'd like to set them up. Can I name each account with my children's names?"
+46,S003,Savings,Bot,"Yes, you can definitely label each savings account with your children's names. This makes it easier to track their individual progress. What are your children's names?"
+47,S003,Savings,Customer,"My 8-year-old is David and my 5-year-old is Sarah."
+48,S003,Savings,Bot,"Thank you. I'll set up two Education Savings Plans:
 
 1. 'David's Education Fund' - UGX 50,000 monthly for 5 years
 2. 'Sarah's Education Fund' - UGX 50,000 monthly for 8 years
 
-To proceed, I'll need you to authorize automatic monthly transfers from your Mobile Money wallet. These will occur on the 1st of each month starting April 1, 2025. Please enter your Mobile Money PIN to authorize this setup.
-49,S003,Savings,Customer,PIN entered.
-50,S003,Savings,Bot,Thank you! Both Education Savings Plans have been set up successfully:
+To proceed, I'll need you to authorize automatic monthly transfers from your Mobile Money wallet. These will occur on the 1st of each month starting April 1, 2025. Please enter your Mobile Money PIN to authorize this setup."
+49,S003,Savings,Customer,"PIN entered."
+50,S003,Savings,Bot,"Thank you! Both Education Savings Plans have been set up successfully:
 
 1. 'David's Education Fund' - UGX 50,000 will be transferred on the 1st of each month
 2. 'Sarah's Education Fund' - UGX 50,000 will be transferred on the 1st of each month
 
-You'll receive monthly updates on each account's progress. For additional security and planning, would you like to add a trusted family member as a secondary account holder who can access these funds in case of emergency?
-51,S003,Savings,Customer,Yes, I'd like to add my wife as a secondary account holder.
-52,S003,Savings,Bot,Great! To add your wife as a secondary account holder, I'll need her full name and MTN mobile number.
-53,S003,Savings,Customer,Her name is Mary Nakato and her number is 0772345678.
-54,S003,Savings,Bot,Thank you. I've added Mary Nakato (0772345678) as a secondary account holder for both 'David's Education Fund' and 'Sarah's Education Fund'. She'll be able to view the account balances and make withdrawals in case of emergency.
+You'll receive monthly updates on each account's progress. For additional security and planning, would you like to add a trusted family member as a secondary account holder who can access these funds in case of emergency?"
+51,S003,Savings,Customer,"Yes, I'd like to add my wife as a secondary account holder."
+52,S003,Savings,Bot,"Great! To add your wife as a secondary account holder, I'll need her full name and MTN mobile number."
+53,S003,Savings,Customer,"Her name is Mary Nakato and her number is 0772345678."
+54,S003,Savings,Bot,"Thank you. I've added Mary Nakato (0772345678) as a secondary account holder for both 'David's Education Fund' and 'Sarah's Education Fund'. She'll be able to view the account balances and make withdrawals in case of emergency.
 
-To complement your education savings strategy, MTN also offers an Education Insurance plan that can protect your children's education fund against unforeseen circumstances. Would you be interested in learning more about this additional protection for your children's future?
+To complement your education savings strategy, MTN also offers an Education Insurance plan that can protect your children's education fund against unforeseen circumstances. Would you be interested in learning more about this additional protection for your children's future?"
 
-55,S004,Savings,Customer,I've been saving with MoKash for 6 months now. How do I check my balance and the interest I've earned?
-56,S004,Savings,Bot,It's great to hear you've been saving with MoKash for 6 months! There are several ways to check your balance and interest earned:
+55,S004,Savings,Customer,"I've been saving with MoKash for 6 months now. How do I check my balance and the interest I've earned?"
+56,S004,Savings,Bot,"It's great to hear you've been saving with MoKash for 6 months! There are several ways to check your balance and interest earned:
 
 1. Dial *165# and select MoKash > Savings > Check Balance
 2. Use the MyMTN app and navigate to Mobile Money > MoKash > Savings
 3. Visit any MTN service center with your ID
 
-Would you like me to guide you through checking your balance via USSD right now?
-57,S004,Savings,Customer,Yes, please guide me through the USSD method.
-58,S004,Savings,Bot,Please dial *165# on your phone now. When the menu appears, press 5 for 'MoKash'.
-59,S004,Savings,Customer,I've selected MoKash.
-60,S004,Savings,Bot,Great! Now select option 1 for 'Savings'.
-61,S004,Savings,Customer,Done.
-62,S004,Savings,Bot,Now select option 5 for 'Check Balance'.
-63,S004,Savings,Customer,Selected.
-64,S004,Savings,Bot,Perfect! You should now see your MoKash savings balance of UGX 450,000 and the interest earned so far of UGX 6,750. Would you like me to help you understand your interest earnings in more detail?
-65,S004,Savings,Customer,Yes, please explain how the interest is calculated.
-66,S004,Savings,Bot,Happy to explain! MoKash calculates interest on a daily basis using this formula:
+Would you like me to guide you through checking your balance via USSD right now?"
+57,S004,Savings,Customer,"Yes, please guide me through the USSD method."
+58,S004,Savings,Bot,"Please dial *165# on your phone now. When the menu appears, press 5 for 'MoKash'."
+59,S004,Savings,Customer,"I've selected MoKash."
+60,S004,Savings,Bot,"Great! Now select option 1 for 'Savings'."
+61,S004,Savings,Customer,"Done."
+62,S004,Savings,Bot,"Now select option 5 for 'Check Balance'."
+63,S004,Savings,Customer,"Selected."
+64,S004,Savings,Bot,"Perfect! You should now see your MoKash savings balance of UGX 450,000 and the interest earned so far of UGX 6,750. Would you like me to help you understand your interest earnings in more detail?"
+65,S004,Savings,Customer,"Yes, please explain how the interest is calculated."
+66,S004,Savings,Bot,"Happy to explain! MoKash calculates interest on a daily basis using this formula:
 
 Daily Interest = (Principal × Annual Interest Rate) ÷ 365
 
@@ -116,9 +116,9 @@ For your account with a 3% annual interest rate:
 
 Interest is added to your account on the last day of each month. Since you've been saving for 6 months and your balance has been growing, you've earned a total of UGX 6,750.
 
-If you upgraded to our 5% term deposit option, your daily interest would increase to UGX 61.64 per day. Would you like to convert your savings to a higher-interest term deposit?
-67,S004,Savings,Customer,That makes sense. If I continue saving at the same rate, how much will I have after a year?
-68,S004,Savings,Bot,Based on your current saving pattern, let me project your balance after one year:
+If you upgraded to our 5% term deposit option, your daily interest would increase to UGX 61.64 per day. Would you like to convert your savings to a higher-interest term deposit?"
+67,S004,Savings,Customer,"That makes sense. If I continue saving at the same rate, how much will I have after a year?"
+68,S004,Savings,Bot,"Based on your current saving pattern, let me project your balance after one year:
 
 Current balance: UGX 450,000 (after 6 months)
 Monthly saving: UGX 75,000 (based on your history)
@@ -131,32 +131,32 @@ If you continue for another 6 months:
 
 Your projected balance after one full year would be approximately UGX 917,000.
 
-If you increased your monthly savings by just UGX 25,000 (to UGX 100,000 per month), you could reach over UGX 1 million. Would you like to increase your monthly saving amount?
-69,S004,Savings,Customer,I think I'll keep my current saving rate for now. Can I download a statement of my savings history?
-70,S004,Savings,Bot,Certainly! You can download a statement of your savings history in several ways:
+If you increased your monthly savings by just UGX 25,000 (to UGX 100,000 per month), you could reach over UGX 1 million. Would you like to increase your monthly saving amount?"
+69,S004,Savings,Customer,"I think I'll keep my current saving rate for now. Can I download a statement of my savings history?"
+70,S004,Savings,Bot,"Certainly! You can download a statement of your savings history in several ways:
 
 1. Via the MyMTN app: Go to Mobile Money > MoKash > Savings > Transactions > Download Statement
 2. By email: I can send a statement to your registered email address
 3. At any MTN service center: Visit with your ID to get a printed statement
 
-Would you like me to email your statement to your registered address (john.kamau@gmail.com)?
-71,S004,Savings,Customer,Yes, please email it to me.
-72,S004,Savings,Bot,I've sent your MoKash savings statement for the past 6 months to john.kamau@gmail.com. You should receive it within the next 5 minutes. The statement includes all deposits, interest payments, and any withdrawals.
+Would you like me to email your statement to your registered address (john.kamau@gmail.com)?"
+71,S004,Savings,Customer,"Yes, please email it to me."
+72,S004,Savings,Bot,"I've sent your MoKash savings statement for the past 6 months to john.kamau@gmail.com. You should receive it within the next 5 minutes. The statement includes all deposits, interest payments, and any withdrawals.
 
-Based on your consistent saving history, you qualify for our MoKash Gold Tier which offers higher transaction limits and priority customer service. Would you like me to upgrade your account to Gold Tier at no additional cost?
+Based on your consistent saving history, you qualify for our MoKash Gold Tier which offers higher transaction limits and priority customer service. Would you like me to upgrade your account to Gold Tier at no additional cost?"
 
-73,S005,Savings,Customer,Is there a way to save money for multiple goals at the same time with MTN?
-74,S005,Savings,Bot,Yes, MTN MoKash allows you to create multiple savings goals simultaneously! You can set up separate savings accounts for different purposes like education, a new home, a wedding, emergencies, or any other financial goal. Each goal can have its own timeline and deposit schedule. How many different goals would you like to save for?
-75,S005,Savings,Customer,I'd like to save for three goals: a wedding next year, a car in two years, and retirement in the long term.
-76,S005,Savings,Bot,Great! We can set up three separate savings goals with different timelines and strategies:
+73,S005,Savings,Customer,"Is there a way to save money for multiple goals at the same time with MTN?"
+74,S005,Savings,Bot,"Yes, MTN MoKash allows you to create multiple savings goals simultaneously! You can set up separate savings accounts for different purposes like education, a new home, a wedding, emergencies, or any other financial goal. Each goal can have its own timeline and deposit schedule. How many different goals would you like to save for?"
+75,S005,Savings,Customer,"I'd like to save for three goals: a wedding next year, a car in two years, and retirement in the long term."
+76,S005,Savings,Bot,"Great! We can set up three separate savings goals with different timelines and strategies:
 
 1. Wedding (1 year): A short-term goal perfect for our flexible savings account
 2. Car (2 years): A medium-term goal suitable for a 2-year term deposit with higher interest
 3. Retirement (long-term): Ideal for our maximum interest long-term savings plan
 
-How much would you like to allocate toward each goal monthly?
-77,S005,Savings,Customer,I can do UGX 200,000 for the wedding, UGX 150,000 for the car, and UGX 100,000 for retirement each month.
-78,S005,Savings,Bot,Thank you for sharing your budget. Here's how we can structure your multi-goal savings plan:
+How much would you like to allocate toward each goal monthly?"
+77,S005,Savings,Customer,"I can do UGX 200,000 for the wedding, UGX 150,000 for the car, and UGX 100,000 for retirement each month."
+78,S005,Savings,Bot,"Thank you for sharing your budget. Here's how we can structure your multi-goal savings plan:
 
 1. Wedding Goal (1 year):
    - Monthly contribution: UGX 200,000
@@ -173,44 +173,44 @@ How much would you like to allocate toward each goal monthly?
    - Account type: High-Yield Savings (5% interest)
    - Recommendation: Consider our partnership with UTL Retirement Fund for higher returns
 
-Would you like to proceed with setting up these three savings goals?
-79,S005,Savings,Customer,Yes, I'd like to set them up. Can I name each goal?
-80,S005,Savings,Bot,Absolutely! You can give each goal a personalized name. What would you like to call each of your three savings goals?
-81,S005,Savings,Customer,Let's call them 'Our Big Day', 'Dream Car', and 'Golden Years'.
-82,S005,Savings,Bot,Those are great names! I'll set up your three savings goals as follows:
+Would you like to proceed with setting up these three savings goals?"
+79,S005,Savings,Customer,"Yes, I'd like to set them up. Can I name each goal?"
+80,S005,Savings,Bot,"Absolutely! You can give each goal a personalized name. What would you like to call each of your three savings goals?"
+81,S005,Savings,Customer,"Let's call them 'Our Big Day', 'Dream Car', and 'Golden Years'."
+82,S005,Savings,Bot,"Those are great names! I'll set up your three savings goals as follows:
 
 1. 'Our Big Day' (Wedding) - UGX 200,000 monthly for 1 year
 2. 'Dream Car' - UGX 150,000 monthly for 2 years
 3. 'Golden Years' (Retirement) - UGX 100,000 monthly long-term savings
 
-When would you like the automatic monthly transfers to occur? We recommend choosing different dates for each goal to spread out the deductions from your Mobile Money wallet.
-83,S005,Savings,Customer,Let's do the 5th for the wedding, 15th for the car, and 25th for retirement.
-84,S005,Savings,Bot,Perfect! I'll schedule the automatic transfers as follows:
+When would you like the automatic monthly transfers to occur? We recommend choosing different dates for each goal to spread out the deductions from your Mobile Money wallet."
+83,S005,Savings,Customer,"Let's do the 5th for the wedding, 15th for the car, and 25th for retirement."
+84,S005,Savings,Bot,"Perfect! I'll schedule the automatic transfers as follows:
 
 1. 'Our Big Day' - UGX 200,000 on the 5th of each month
 2. 'Dream Car' - UGX 150,000 on the 15th of each month
 3. 'Golden Years' - UGX 100,000 on the 25th of each month
 
-The first transfers will begin next month. Please enter your Mobile Money PIN to authorize this setup.
-85,S005,Savings,Customer,PIN entered.
-86,S005,Savings,Bot,Thank you! All three savings goals have been set up successfully. You'll receive SMS confirmations for each goal and monthly updates on your progress. You can track all your goals in the MyMTN app under Mobile Money > MoKash > My Savings Goals.
+The first transfers will begin next month. Please enter your Mobile Money PIN to authorize this setup."
+85,S005,Savings,Customer,"PIN entered."
+86,S005,Savings,Bot,"Thank you! All three savings goals have been set up successfully. You'll receive SMS confirmations for each goal and monthly updates on your progress. You can track all your goals in the MyMTN app under Mobile Money > MoKash > My Savings Goals.
 
-To help you reach your car goal faster, I notice you frequently send money to Kampala. Did you know that using MoMoPay for merchant payments can earn you cashback rewards that could be automatically added to your 'Dream Car' goal? Would you like to activate this feature?
-87,S005,Savings,Customer,That sounds useful. How does the cashback work?
-88,S005,Savings,Bot,Our MoMoPay Cashback program gives you 1% cashback on all merchant payments made using MTN Mobile Money. For example, if you pay UGX 50,000 at a supermarket using MoMoPay, you'll earn UGX 500 in cashback.
+To help you reach your car goal faster, I notice you frequently send money to Kampala. Did you know that using MoMoPay for merchant payments can earn you cashback rewards that could be automatically added to your 'Dream Car' goal? Would you like to activate this feature?"
+87,S005,Savings,Customer,"That sounds useful. How does the cashback work?"
+88,S005,Savings,Bot,"Our MoMoPay Cashback program gives you 1% cashback on all merchant payments made using MTN Mobile Money. For example, if you pay UGX 50,000 at a supermarket using MoMoPay, you'll earn UGX 500 in cashback.
 
 With this feature activated, all your cashback rewards will be automatically added to your 'Dream Car' savings goal instead of your Mobile Money wallet. Based on your transaction history, this could add approximately UGX 15,000-20,000 per month to your car fund without any extra cost to you.
 
-Would you like me to activate this automatic cashback deposit feature for your 'Dream Car' goal?
-89,S005,Savings,Customer,Yes, please activate it.
-90,S005,Savings,Bot,I've activated the MoMoPay Cashback deposit feature for your 'Dream Car' goal. All cashback rewards you earn will now be automatically added to this savings account. You'll see these deposits labeled as 'MoMoPay Cashback Reward' in your transaction history.
+Would you like me to activate this automatic cashback deposit feature for your 'Dream Car' goal?"
+89,S005,Savings,Customer,"Yes, please activate it."
+90,S005,Savings,Bot,"I've activated the MoMoPay Cashback deposit feature for your 'Dream Car' goal. All cashback rewards you earn will now be automatically added to this savings account. You'll see these deposits labeled as 'MoMoPay Cashback Reward' in your transaction history.
 
-To maximize your cashback, look for the MoMoPay logo at shops, restaurants, and service providers. Would you like me to send you a list of MoMoPay merchants near your location in Ntinda to help you earn more cashback?
+To maximize your cashback, look for the MoMoPay logo at shops, restaurants, and service providers. Would you like me to send you a list of MoMoPay merchants near your location in Ntinda to help you earn more cashback?"
 
-91,S006,Savings,Customer,I want to save for my business expansion. Do you have special savings plans for business owners?
-92,S006,Savings,Bot,Yes, we do offer specialized savings options for business owners like you! MTN MoKash Business Savings provides higher interest rates, flexible access, and additional benefits designed specifically for business needs. What type of business do you operate, and what's your timeframe for expansion?
-93,S006,Savings,Customer,I run a small retail shop selling mobile accessories. I'm planning to expand in about 8 months by adding electronics.
-94,S006,Savings,Bot,Thank you for sharing about your mobile accessories shop. For your 8-month business expansion plan to add electronics, I recommend our MTN Business Booster Savings. This plan offers:
+91,S006,Savings,Customer,"I want to save for my business expansion. Do you have special savings plans for business owners?"
+92,S006,Savings,Bot,"Yes, we do offer specialized savings options for business owners like you! MTN MoKash Business Savings provides higher interest rates, flexible access, and additional benefits designed specifically for business needs. What type of business do you operate, and what's your timeframe for expansion?"
+93,S006,Savings,Customer,"I run a small retail shop selling mobile accessories. I'm planning to expand in about 8 months by adding electronics."
+94,S006,Savings,Bot,"Thank you for sharing about your mobile accessories shop. For your 8-month business expansion plan to add electronics, I recommend our MTN Business Booster Savings. This plan offers:
 
 1. 4.5% annual interest rate (higher than standard savings)
 2. Flexible deposits that work with business cash flow
@@ -218,9 +218,9 @@ To maximize your cashback, look for the MoMoPay logo at shops, restaurants, and 
 4. Quarterly business financial management webinars
 5. Priority access to MTN business loans when you're ready to expand
 
-How much would you like to save each week or month toward your expansion?
-95,S006,Savings,Customer,I can save about UGX 500,000 per month. What would that give me after 8 months?
-96,S006,Savings,Bot,With monthly deposits of UGX 500,000 for 8 months in our Business Booster Savings plan:
+How much would you like to save each week or month toward your expansion?"
+95,S006,Savings,Customer,"I can save about UGX 500,000 per month. What would that give me after 8 months?"
+96,S006,Savings,Bot,"With monthly deposits of UGX 500,000 for 8 months in our Business Booster Savings plan:
 
 Principal amount: UGX 4,000,000 (8 months × UGX 500,000)
 Interest earned (at 4.5% annually): Approximately UGX 82,500
@@ -228,49 +228,49 @@ Total after 8 months: Approximately UGX 4,082,500
 
 This gives you a solid foundation for your electronics expansion. Additionally, this savings history would qualify you for an MTN business loan of up to UGX 8,000,000 if you need additional capital when you're ready to expand.
 
-Would you like to open a Business Booster Savings account today?
-97,S006,Savings,Customer,Yes, I'd like to open the account. Do I need to provide my business registration documents?
-98,S006,Savings,Bot,For the Business Booster Savings account, we have a streamlined process for existing MTN Mobile Money business users. Since you already have a registered business wallet, you don't need to provide additional business registration documents.
+Would you like to open a Business Booster Savings account today?"
+97,S006,Savings,Customer,"Yes, I'd like to open the account. Do I need to provide my business registration documents?"
+98,S006,Savings,Bot,"For the Business Booster Savings account, we have a streamlined process for existing MTN Mobile Money business users. Since you already have a registered business wallet, you don't need to provide additional business registration documents.
 
-However, to maximize your benefits, we recommend updating your business profile. Do you have your business TIN (Tax Identification Number) available? This will help qualify you for higher transaction limits and additional tax benefits on your savings.
-99,S006,Savings,Customer,Yes, my TIN is 1234567890.
-100,S006,Savings,Bot,Thank you for providing your TIN. I've updated your business profile with TIN 1234567890. Now, to set up your Business Booster Savings account:
+However, to maximize your benefits, we recommend updating your business profile. Do you have your business TIN (Tax Identification Number) available? This will help qualify you for higher transaction limits and additional tax benefits on your savings."
+99,S006,Savings,Customer,"Yes, my TIN is 1234567890."
+100,S006,Savings,Bot,"Thank you for providing your TIN. I've updated your business profile with TIN 1234567890. Now, to set up your Business Booster Savings account:
 
 1. We'll create an account named 'Shop Expansion Fund'
 2. Set up automatic monthly transfers of UGX 500,000 from your business Mobile Money wallet
 3. Schedule these for the 10th of each month (or you can suggest another date)
 4. Set your 8-month target date as November 10, 2025
 
-Is this arrangement suitable for your business cash flow, or would you prefer a different deposit schedule?
-101,S006,Savings,Customer,The 10th works well for me. Can I also make additional deposits if I have extra cash?
-102,S006,Savings,Bot,Absolutely! You can make additional deposits to your 'Shop Expansion Fund' anytime you have extra cash. There are several ways to make these extra deposits:
+Is this arrangement suitable for your business cash flow, or would you prefer a different deposit schedule?"
+101,S006,Savings,Customer,"The 10th works well for me. Can I also make additional deposits if I have extra cash?"
+102,S006,Savings,Bot,"Absolutely! You can make additional deposits to your 'Shop Expansion Fund' anytime you have extra cash. There are several ways to make these extra deposits:
 
 1. Dial *165# > MoKash > Business Savings > Deposit
 2. Use the MyMTN Business app
 3. Visit any MTN service center
 4. Set up deposit shortcuts by texting 'SAVE' followed by the amount to 165
 
-There are no limits on how many additional deposits you can make, and each deposit starts earning interest immediately. Would you like to proceed with setting up the account with automatic transfers on the 10th of each month?
-103,S006,Savings,Customer,Yes, let's set it up.
-104,S006,Savings,Bot,Great! To confirm setup of your 'Shop Expansion Fund' with:
+There are no limits on how many additional deposits you can make, and each deposit starts earning interest immediately. Would you like to proceed with setting up the account with automatic transfers on the 10th of each month?"
+103,S006,Savings,Customer,"Yes, let's set it up."
+104,S006,Savings,Bot,"Great! To confirm setup of your 'Shop Expansion Fund' with:
 - Monthly transfers of UGX 500,000 on the 10th of each month
 - First transfer on April 10, 2025
 - Target date: November 10, 2025
 
-Please enter your Mobile Money Business wallet PIN to authorize.
-105,S006,Savings,Customer,PIN entered.
-106,S006,Savings,Bot,Thank you! Your Business Booster Savings account 'Shop Expansion Fund' has been successfully created. Your first automatic transfer of UGX 500,000 will occur on April 10, 2025. You'll receive monthly progress reports via SMS and can track your savings in the MyMTN Business app.
+Please enter your Mobile Money Business wallet PIN to authorize."
+105,S006,Savings,Customer,"PIN entered."
+106,S006,Savings,Bot,"Thank you! Your Business Booster Savings account 'Shop Expansion Fund' has been successfully created. Your first automatic transfer of UGX 500,000 will occur on April 10, 2025. You'll receive monthly progress reports via SMS and can track your savings in the MyMTN Business app.
 
-As a business owner saving for expansion, you might benefit from our free business inventory management tool that integrates with MTN Mobile Money. This could help you identify your bestselling items to prioritize when expanding into electronics. Would you like me to activate this tool for your business account at no extra cost?
+As a business owner saving for expansion, you might benefit from our free business inventory management tool that integrates with MTN Mobile Money. This could help you identify your bestselling items to prioritize when expanding into electronics. Would you like me to activate this tool for your business account at no extra cost?"
 
-107,S007,Savings,Customer,I tried to withdraw from my MoKash savings yesterday but got an error. Can you help?
-108,S007,Savings,Bot,I'm sorry to hear you experienced an error when trying to withdraw from your MoKash savings. I'd be happy to help resolve this. Could you please share what error message you received or what happened when you tried to make the withdrawal?
-109,S007,Savings,Customer,It said 'Transaction Failed: System Error' when I tried to withdraw UGX 100,000.
-110,S007,Savings,Bot,Thank you for that information. I'm checking your account now... I can see that there was indeed a system error that affected some MoKash transactions yesterday between 2:00 PM and 4:30 PM due to scheduled maintenance. Your attempted withdrawal of UGX 100,000 was at 3:15 PM during this window.
+107,S007,Savings,Customer,"I tried to withdraw from my MoKash savings yesterday but got an error. Can you help?"
+108,S007,Savings,Bot,"I'm sorry to hear you experienced an error when trying to withdraw from your MoKash savings. I'd be happy to help resolve this. Could you please share what error message you received or what happened when you tried to make the withdrawal?"
+109,S007,Savings,Customer,"It said 'Transaction Failed: System Error' when I tried to withdraw UGX 100,000."
+110,S007,Savings,Bot,"Thank you for that information. I'm checking your account now... I can see that there was indeed a system error that affected some MoKash transactions yesterday between 2:00 PM and 4:30 PM due to scheduled maintenance. Your attempted withdrawal of UGX 100,000 was at 3:15 PM during this window.
 
-The good news is that your savings balance of UGX 350,000 is intact and available for withdrawal now. Would you like to try the withdrawal again? I can guide you through the process.
-111,S007,Savings,Customer,Yes, I still need to withdraw the money. Please help me.
-112,S007,Savings,Bot,I'll help you withdraw UGX 100,000 from your MoKash savings now. Please follow these steps:
+The good news is that your savings balance of UGX 350,000 is intact and available for withdrawal now. Would you like to try the withdrawal again? I can guide you through the process."
+111,S007,Savings,Customer,"Yes, I still need to withdraw the money. Please help me."
+112,S007,Savings,Bot,"I'll help you withdraw UGX 100,000 from your MoKash savings now. Please follow these steps:
 
 1. Dial *165# on your phone
 2. Select option 5 for 'MoKash'
@@ -279,43 +279,43 @@ The good news is that your savings balance of UGX 350,000 is intact and availabl
 5. Enter the amount: 100000
 6. Confirm the transaction with your Mobile Money PIN
 
-Would you like me to guide you through each step as you proceed?
-113,S007,Savings,Customer,Yes, please guide me step by step.
-114,S007,Savings,Bot,Great, let's start. Please dial *165# on your phone now.
-115,S007,Savings,Customer,Done, I see the main menu.
-116,S007,Savings,Bot,Perfect! Now press 5 to select 'MoKash'.
-117,S007,Savings,Customer,Selected MoKash.
-118,S007,Savings,Bot,Good. Now press 1 to select 'Savings'.
-119,S007,Savings,Customer,Selected Savings.
-120,S007,Savings,Bot,Now press 3 to select 'Withdraw'.
-121,S007,Savings,Customer,Selected Withdraw.
-122,S007,Savings,Bot,Now enter 100000 as the amount you wish to withdraw.
-123,S007,Savings,Customer,Entered 100000.
-124,S007,Savings,Bot,Great! Now please review the transaction details showing UGX 100,000 withdrawal from MoKash Savings to your Mobile Money wallet. If everything looks correct, enter your Mobile Money PIN to confirm.
-125,S007,Savings,Customer,Entered my PIN. It says 'Transaction Successful'!
-126,S007,Savings,Bot,Excellent! Your withdrawal of UGX 100,000 from your MoKash Savings to your Mobile Money wallet has been completed successfully. Your new MoKash Savings balance is UGX 250,000, and the funds are now available in your Mobile Money wallet.
+Would you like me to guide you through each step as you proceed?"
+113,S007,Savings,Customer,"Yes, please guide me step by step."
+114,S007,Savings,Bot,"Great, let's start. Please dial *165# on your phone now."
+115,S007,Savings,Customer,"Done, I see the main menu."
+116,S007,Savings,Bot,"Perfect! Now press 5 to select 'MoKash'."
+117,S007,Savings,Customer,"Selected MoKash."
+118,S007,Savings,Bot,"Good. Now press 1 to select 'Savings'."
+119,S007,Savings,Customer,"Selected Savings."
+120,S007,Savings,Bot,"Now press 3 to select 'Withdraw'."
+121,S007,Savings,Customer,"Selected Withdraw."
+122,S007,Savings,Bot,"Now enter 100000 as the amount you wish to withdraw."
+123,S007,Savings,Customer,"Entered 100000."
+124,S007,Savings,Bot,"Great! Now please review the transaction details showing UGX 100,000 withdrawal from MoKash Savings to your Mobile Money wallet. If everything looks correct, enter your Mobile Money PIN to confirm."
+125,S007,Savings,Customer,"Entered my PIN. It says 'Transaction Successful'!"
+126,S007,Savings,Bot,"Excellent! Your withdrawal of UGX 100,000 from your MoKash Savings to your Mobile Money wallet has been completed successfully. Your new MoKash Savings balance is UGX 250,000, and the funds are now available in your Mobile Money wallet.
 
-I apologize for the inconvenience caused by yesterday's system error. As a goodwill gesture for the inconvenience, we'd like to offer you a one-time interest bonus of 1% on your remaining savings balance. This UGX 2,500 bonus will be credited to your account within 24 hours. Would you like to set up a withdrawal schedule for future planned withdrawals to avoid potential system maintenance windows?
-127,S007,Savings,Customer,Thank you for the bonus. No need for a schedule, but is there a way to know about planned system maintenance in advance?
-128,S007,Savings,Bot,You're welcome for the bonus! Yes, we can definitely help you stay informed about planned system maintenance. There are three ways you can receive advance notifications:
+I apologize for the inconvenience caused by yesterday's system error. As a goodwill gesture for the inconvenience, we'd like to offer you a one-time interest bonus of 1% on your remaining savings balance. This UGX 2,500 bonus will be credited to your account within 24 hours. Would you like to set up a withdrawal schedule for future planned withdrawals to avoid potential system maintenance windows?"
+127,S007,Savings,Customer,"Thank you for the bonus. No need for a schedule, but is there a way to know about planned system maintenance in advance?"
+128,S007,Savings,Bot,"You're welcome for the bonus! Yes, we can definitely help you stay informed about planned system maintenance. There are three ways you can receive advance notifications:
 
 1. SMS Alerts: I can enable maintenance alerts to be sent to your phone 24 hours before any scheduled maintenance
 2. MyMTN App Notifications: Enable system alerts in your app settings
 3. Weekly Schedule: You can receive a weekly summary of any planned maintenance
 
-Many customers find the SMS alerts most convenient. Would you like me to enable these maintenance alert SMS notifications for your account?
-129,S007,Savings,Customer,Yes, please enable the SMS alerts.
-130,S007,Savings,Bot,I've enabled maintenance alert SMS notifications for your account. You'll now receive a message 24 hours before any scheduled system maintenance that might affect MoKash services. This will help you plan your transactions accordingly.
+Many customers find the SMS alerts most convenient. Would you like me to enable these maintenance alert SMS notifications for your account?"
+129,S007,Savings,Customer,"Yes, please enable the SMS alerts."
+130,S007,Savings,Bot,"I've enabled maintenance alert SMS notifications for your account. You'll now receive a message 24 hours before any scheduled system maintenance that might affect MoKash services. This will help you plan your transactions accordingly.
 
-Based on your recent transaction history, I notice you make regular withdrawals around this time of month. Would you be interested in our MoKash Spending Plan feature? It helps you organize regular expenses while still earning interest on your savings until the moment you need the funds.
+Based on your recent transaction history, I notice you make regular withdrawals around this time of month. Would you be interested in our MoKash Spending Plan feature? It helps you organize regular expenses while still earning interest on your savings until the moment you need the funds."
 
-131,S008,Savings,Customer,What's the minimum amount I need to start saving with MTN MoKash?
-132,S008,Savings,Bot,Good question! With MTN MoKash, you can start saving with as little as UGX 500. There's no minimum balance requirement to maintain your account, and you'll start earning interest right away. Would you like to open a savings account today?
-133,S008,Savings,Customer,That's very affordable. Is there a maximum amount I can save?
-134,S008,Savings,Bot,You're right, our low minimum makes saving accessible to everyone! Regarding the maximum amount, your MoKash savings can go up to UGX 50,000,000. However, this limit depends on your Mobile Money tier:
+131,S008,Savings,Customer,"What's the minimum amount I need to start saving with MTN MoKash?"
+132,S008,Savings,Bot,"Good question! With MTN MoKash, you can start saving with as little as UGX 500. There's no minimum balance requirement to maintain your account, and you'll start earning interest right away. Would you like to open a savings account today?"
+133,S008,Savings,Customer,"That's very affordable. Is there a maximum amount I can save?"
+134,S008,Savings,Bot,"You're right, our low minimum makes saving accessible to everyone! Regarding the maximum amount, your MoKash savings can go up to UGX 50,000,000. However, this limit depends on your Mobile Money tier:
 
 - Basic Tier: Up to UGX 5,000,000
 - Medium Tier: Up to UGX 15,000,000
 - High Tier: Up to UGX 50,000,000
 
-Based on your current Medium Tier status, you can save up to UGX 15,000,000 in your MoKash account
+Based on your current Medium Tier status, you can save up to UGX 15,000,000 in your MoKash account"

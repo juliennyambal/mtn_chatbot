@@ -49,8 +49,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 48,T002,Money Transfers,Customer,"No, not now. Thanks."
 49,A001,Account Status,Customer,"How do I check my account balance?"
 50,A001,Account Status,Bot,"You can check your account balance by dialing *165# and selecting 'My Account', then 'Check Balance'. Alternatively, you can use the MTN
-```csv
-row_index,conversation_id,scenario_type,speaker,dialogue
 81,T003,Money Transfers,Customer,"Can I schedule a money transfer for a later date?"
 82,T003,Money Transfers,Bot,"Yes, you can schedule a money transfer for a later date using the 'Scheduled Transfer' option in the Mobile Money menu. You'll need to specify the recipient's number, the amount, and the date and time of the transfer. Would you like to schedule a transfer now?"
 83,T003,Money Transfers,Customer,"Yes, please help me schedule a transfer of UGX 50,000 to 078XXXXXXX for next Friday at 10 AM."
@@ -110,8 +108,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 137,L004,Loans/Overdraft,Bot,"Here are some tips..."
 138,R003,Remittance,Customer,"Can I receive money from other remittance services besides WorldRemit?"
 139,R003,Remittance
-```csv
-row_index,conversation_id,scenario_type,speaker,dialogue
 140,R003,Remittance,Bot,"Yes, you can receive money from other remittance services like MoneyGram and Western Union. Just select the appropriate service from the Mobile Money menu."
 141,R003,Remittance,Customer,"Okay, thanks."
 142,R004,Remittance,Customer,"How long does it take for the money to arrive?"
@@ -171,8 +167,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 196,T007,Money Transfers,Bot,"An invitation has been sent to 075ZZZZZZZ. Is there anything else I can help you with?"
 197,T008,Money Transfers,Customer,"What are the limits for daily money transfers?"
 198,T008,Money Transfers,Bot,"The daily transfer limit depends on your account level and usage. Would you like me to check your daily transfer limit?"
-```csv
-row_index,conversation_id,scenario_type,speaker,dialogue
 199,T008,Money Transfers,Customer,"Yes, please check."
 200,T008,Money Transfers,Bot,"Your daily transfer limit is UGX 2,000,000. Would you like to increase your limit?"
 201,T008,Money Transfers,Customer,"No, that's fine. Thanks."

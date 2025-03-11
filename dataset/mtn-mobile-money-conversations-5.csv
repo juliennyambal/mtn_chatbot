@@ -85,25 +85,21 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 164,L004,Loans/Overdraft,Bot,"To check your loan details, I'll need to verify your identity. Please enter your Mobile Money PIN."
 165,L004,Loans/Overdraft,Customer,"PIN entered."
 166,L004,Loans/Overdraft,Bot,"Thank you for verifying your identity. Here are your current loan details:
-
 Loan Amount: UGX 350,000
 Disbursement Date: February 20, 2025
 Due Date: March 22, 2025 (11 days from now)
 Outstanding Balance: UGX 245,000
 Service Fee: UGX 31,500
 Total Amount Due: UGX 276,500
-
 Would you like to make a payment towards this loan today?"
 167,L004,Loans/Overdraft,Customer,"Yes, I can pay UGX 100,000 today."
 168,L004,Loans/Overdraft,Bot,"Great! I'll process a payment of UGX 100,000 towards your loan. This will reduce your outstanding balance to UGX 176,500. Please enter your PIN to confirm this payment from your Mobile Money wallet."
 169,L004,Loans/Overdraft,Customer,"PIN entered."
 170,L004,Loans/Overdraft,Bot,"Thank you. Your payment of UGX 100,000 has been successfully processed. Your updated loan details are:
-
 Outstanding Balance: UGX 145,000
 Service Fee: UGX 31,500
 Total Amount Due: UGX 176,500
 Due Date: March 22, 2025 (11 days from now)
-
 Would you like to schedule your next payment?"
 171,L004,Loans/Overdraft,Customer,"When do I pay the service fee? Is it included in my payments or paid separately at the end?"
 172,L004,Loans/Overdraft,Bot,"Good question! The service fee of UGX 31,500 is included in your total repayment amount. Every payment you make is allocated proportionally between the principal and the service fee. For example, from your UGX 100,000 payment today, approximately UGX 87,000 went toward the principal and UGX 13,000 toward the service fee. You don't need to pay the service fee separately - it's all handled automatically in the repayment process. Does that clarify how the fee is handled?"
@@ -121,28 +117,14 @@ Would you like to schedule your next payment?"
 184,L005,Loans/Overdraft,Bot,"To check your loan balance for early repayment, I'll need to verify your identity. Please enter your Mobile Money PIN."
 185,L005,Loans/Overdraft,Customer,"PIN entered."
 186,L005,Loans/Overdraft,Bot,"Thank you for verifying your identity. Here are your current loan details:
-
 Original Loan Amount: UGX 250,000
 Disbursement Date: February 25, 2025
 Due Date: March 27, 2025 (16 days from now)
 Current Outstanding Balance: UGX 250,000
 Service Fee: UGX 22,500
 Total Repayment Amount: UGX 272,500
-
 Would you like to proceed with early repayment of the full amount today?"
 187,L005,Loans/Overdraft,Customer,"Yes, I want to repay the full amount today."
 188,L005,Loans/Overdraft,Bot,"Great! I'll process the full repayment of your loan. The total amount to be deducted from your Mobile Money wallet will be UGX 272,500 (principal of UGX 250,000 + service fee of UGX 22,500). Please enter your PIN to confirm this payment."
 189,L005,Loans/Overdraft,Customer,"PIN entered."
-190,L005,Loans/Overdraft,Bot,"Thank you. Your payment of UGX 272,500 has been successfully processed. Your MoKash loan has been fully repaid! Your loan facility is now available for future borrowing if needed. This early repayment will positively impact your credit score and may increase your borrowing limit in the future. Would you like to know your updated loan eligibility after this repayment?"
-191,L005,Loans/Overdraft,Customer,"Yes, I'd like to know my new loan limit."
-192,L005,Loans/Overdraft,Bot,"Great news! Due to your consistent repayment history and this early loan settlement, your MoKash loan limit has increased to UGX 400,000. This new limit is available immediately if you need to borrow again. Additionally, your service fee has been reduced from 9% to 8.5% for future loans. Would you like information about our MoKash Gold program that could further increase your limit and reduce your service fees?"
-193,L005,Loans/Overdraft,Customer,"Not right now. How long should I wait before taking another loan?"
-194,L005,Loans/Overdraft,Bot,"You can take another loan immediately if needed - there's no mandatory waiting period after repayment. However, for optimal credit scoring and potentially better terms, we recommend waiting at least 7 days between loans. This pattern of borrowing and repaying with small gaps in between demonstrates responsible credit management and can lead to higher limits and lower fees over time. Do you anticipate needing another loan soon?"
-195,L005,Loans/Overdraft,Customer,"I might need one in about two weeks for my daughter's school fees."
-196,L005,Loans/Overdraft,Bot,"Waiting two weeks before your next loan is an excellent approach. This timing will positively impact your credit profile and potentially increase your limit further for future borrowing. For school fees, you might be interested in our specialized Education Loan that offers a 15-day grace period before repayment begins, giving you time to arrange funds after the term starts. The Education Loan also allows split repayments over 2 months. Would you like me to set a reminder to check your eligibility for an Education Loan in two weeks?"
-197,L005,Loans/Overdraft,Customer,"Yes, please set a reminder for March 25th to check my eligibility for the Education Loan."
-198,L005,Loans/Overdraft,Bot,"I've set a reminder for March 25th to check your eligibility for an MTN Education Loan. You'll receive a notification on that date with your eligible amount and the special terms for school fees. Based on your financial needs, you might also be interested in our School Fees Savings Plan, which helps you prepare for future educational expenses by setting aside small amounts regularly. Would you like information about planning ahead for the next school term?"
-199,L005,Loans/Overdraft,Customer,"Yes, that would be helpful. My daughter will be starting a new term in September."
-200,L005,Loans/Overdraft,Bot,"Perfect! For your daughter's September term, I recommend our School Fees Savings Plan. Here's how it works: 1) You set a target amount and date (September 2025) 2) The system calculates weekly or monthly deposit amounts 3) You earn 5% annual interest (higher than regular savings) 4) Automatic deposits ensure discipline 5) Emergency access if needed With 6 months until September, saving just UGX 50,000 monthly would accumulate about UGX 300,000 plus interest. Would you like to set up a School Fees Savings Plan alongside your loan reminder?"
-201,R001,Remittance,Customer,"My daughter in London wants to send me money. How can she do that through MTN?"
-202,R001,Remittance,Bot,"Your daughter can send you money from London through several international money transfer services that partner with MTN Mobile Money.
+190,L005,Loans/Overdraft,Bot,"Thank you. Your payment of UGX 272,500 has been successfully"

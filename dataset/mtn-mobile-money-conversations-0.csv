@@ -56,7 +56,6 @@ Would you like me to send these instructions to your daughter via SMS?"
 44,R001,Remittance,Bot,"You'll receive an SMS notification on your MTN number as soon as the money is deposited into your Mobile Money wallet. The message will show the amount received in UGX, the sender's name, and your updated Mobile Money balance. Typically, transfers from WorldRemit arrive within minutes after being sent. Would you like me to set up an additional notification for remittance receipts?"
 45,R001,Remittance,Customer,"No, the SMS is enough. Thank you for your help."
 46,R001,Remittance,Bot,"You're welcome! Based on your interest in international money transfers, you might benefit from our MTN Homeland service, which offers special rates and benefits for regular remittance receivers. Would you like to learn more about this service?"
-
 47,T001,Money Transfers,Customer,"I need to send money to my uncle, but he uses Airtel, not MTN. Is that possible?"
 48,T001,Money Transfers,Bot,"Yes, you can definitely send money to an Airtel user through MTN Mobile Money. This is called an 'off-net' or 'cross-network' transfer. You can send money directly to your uncle's Airtel number, and he'll receive it in his Airtel Money wallet. Would you like me to guide you through the process?"
 49,T001,Money Transfers,Customer,"Yes, please. I want to send him UGX 50,000."
@@ -77,9 +76,7 @@ The transaction fee for sending UGX 50,000 to Airtel is UGX 1,600. Your uncle wi
 52,T001,Money Transfers,Bot,"I understand your concern about the fee. Here are some alternatives:
 
 1. Mobile Money Promotion: We sometimes run promotions with reduced fees for cross-network transfers. Currently, there's a 25% discount on weekend transfers, which would reduce your fee to UGX 1,200 if you send on Saturday or Sunday.
-
 2. MoMoPay: If your uncle is near a merchant that accepts MoMoPay, you could send money to your uncle for free, and he could use it to pay at that merchant.
-
 3. Group Collections: If you regularly send money to multiple people, including Airtel users, our Group Collections feature might save you on total fees.
 
 Would any of these options work better for you?"
