@@ -25,7 +25,7 @@ Input: checks loan eligibility. Based on your transaction history, you qualify f
 Output: Based on your transaction history, you qualify for a loan of up to UGX 300,000 with a 30-day repayment period.
 """
 
-def load_mtn_mobile_money_dataset(dataset_location='momo_conversations.csv'):
+def load_mtn_mobile_money_dataset(dataset_location='dataset/mtn-mobile-money-conversations-*'):
     """Loads the MTN Mobile Money conversation dataset.
 
     This function loads the MTN Mobile Money conversation dataset from the specified

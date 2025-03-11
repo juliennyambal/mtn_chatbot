@@ -1,0 +1,121 @@
+row_index,conversation_id,scenario_type,speaker,dialogue
+1,S001,Savings,Customer,"Hello, I want to save some money with MTN MoKash. How does it work?"
+2,S001,Savings,Bot,"Welcome to MTN MoKash! You can save money and earn interest of up to 5% per year. You can deposit as little as UGX 500, and your savings are secure. Would you like me to help you set up a savings goal or make a deposit?"
+3,S001,Savings,Customer,"I'd like to save UGX 100,000 for my daughter's school fees in 3 months. Can I set that as a goal?"
+4,S001,Savings,Bot,"Absolutely! I can help you create a school fees savings goal. With a target of UGX 100,000 in 3 months, you would need to save approximately UGX 33,334 per month to reach your goal. Would you like to set up automatic deposits or manual deposits?"
+5,S001,Savings,Customer,"I prefer automatic deposits every week from my MTN Mobile Money wallet. Is that possible?"
+6,S001,Savings,Bot,"Yes, we can set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash savings account. This will help you reach your UGX 100,000 goal in 3 months. Should I set this up for you now?"
+7,S001,Savings,Customer,"Yes, please go ahead."
+8,S001,Savings,Bot,"To confirm, I'll set up automatic weekly deposits of UGX 8,334 from your Mobile Money wallet to your MoKash account for your daughter's school fees goal. Please enter your Mobile Money PIN to authorize this setup."
+9,S001,Savings,Customer,"I've entered my PIN."
+10,S001,Savings,Bot,"Thank you! Your automatic savings plan has been set up successfully. Deposits of UGX 8,334 will be made every Monday starting next week. You'll receive SMS notifications for each transaction. You can check your savings progress anytime by dialing *165# and selecting MoKash. Is there anything else you'd like to know about your savings plan?"
+11,S002,Savings,Customer,"I want to save for a new phone. Can I set up a savings goal for that?"
+12,S002,Savings,Bot,"Of course! You can set up a savings goal for any purpose. How much do you want to save and by when?"
+13,S002,Savings,Customer,"I want to save UGX 500,000 in 6 months."
+14,S002,Savings,Bot,"Great! To save UGX 500,000 in 6 months, you'll need to save approximately UGX 83,334 per month. Would you like to set up automatic monthly deposits?"
+15,S002,Savings,Customer,"Yes, please set up automatic deposits."
+16,S002,Savings,Bot,"I'll set up automatic monthly deposits of UGX 83,334 from your Mobile Money wallet to your MoKash account. Please enter your Mobile Money PIN to confirm."
+17,S002,Savings,Customer,"PIN entered."
+18,S002,Savings,Bot,"Thank you! Your savings plan for the new phone has been set up. You'll receive SMS notifications for each deposit. You can check your progress anytime by dialing *165# and selecting MoKash. Is there anything else you need?"
+19,S003,Savings,Customer,"Can I withdraw my savings before the goal date?"
+20,S003,Savings,Bot,"Yes, you can withdraw your savings at any time. However, keep in mind that the longer you save, the more interest you earn. Would you like to proceed with a withdrawal?"
+21,S003,Savings,Customer,"Not right now, just wanted to know. Thanks!"
+22,S003,Savings,Bot,"You're welcome! Let me know if you need any assistance with your savings plan."
+23,L001,Loans/Overdraft,Customer,"I need to pay for some emergency medical expenses. Can I get a quick loan through MTN?"
+24,L001,Loans/Overdraft,Bot,"I'm sorry to hear about the emergency. Yes, MTN MoKash offers quick loans to eligible customers. Based on your Mobile Money transaction history, you may qualify for a loan. Would you like to check your loan eligibility and available amount?"
+25,L001,Loans/Overdraft,Customer,"Yes, please check how much I can borrow."
+26,L001,Loans/Overdraft,Bot,"Let me check your eligibility. Based on your Mobile Money history and transaction patterns, you're eligible for a loan of up to UGX 300,000. Loans are repayable within 30 days with a service fee of 9%. For example, if you borrow UGX 100,000, you'll need to repay UGX 109,000 within 30 days. How much would you like to borrow?"
+27,L001,Loans/Overdraft,Customer,"I need UGX 200,000 for the medical expenses."
+28,L001,Loans/Overdraft,Bot,"I can process a loan of UGX 200,000 for you. The total amount to repay will be UGX 218,000 within 30 days. The loan will be instantly deposited into your Mobile Money wallet if approved. Would you like to proceed with the loan application?"
+29,L001,Loans/Overdraft,Customer,"Yes, please proceed."
+30,L001,Loans/Overdraft,Bot,"To apply for the UGX 200,000 loan, please confirm by entering your Mobile Money PIN."
+31,L001,Loans/Overdraft,Customer,"PIN entered."
+32,L001,Loans/Overdraft,Bot,"Thank you. Your loan application is being processed... I'm pleased to inform you that your loan has been approved! UGX 200,000 has been deposited into your Mobile Money wallet. The repayment amount of UGX 218,000 is due by April 8, 2025. You'll receive reminders as the due date approaches. Would you like to set up automatic repayment from your Mobile Money account?"
+33,L002,Loans/Overdraft,Customer,"I need a loan to pay for my child's school fees. Can I apply?"
+34,L002,Loans/Overdraft,Bot,"Yes, you can apply for a loan to cover school fees. Based on your Mobile Money transaction history, you're eligible for a loan of up to UGX 500,000. How much would you like to borrow?"
+35,L002,Loans/Overdraft,Customer,"I need UGX 300,000."
+36,L002,Loans/Overdraft,Bot,"I can process a loan of UGX 300,000 for you. The total amount to repay will be UGX 327,000 within 30 days. Would you like to proceed with the loan application?"
+37,L002,Loans/Overdraft,Customer,"Yes, please proceed."
+38,L002,Loans/Overdraft,Bot,"Please enter your Mobile Money PIN to confirm the loan application."
+39,L002,Loans/Overdraft,Customer,"PIN entered."
+40,L002,Loans/Overdraft,Bot,"Thank you. Your loan application has been approved, and UGX 300,000 has been deposited into your Mobile Money wallet. The repayment amount of UGX 327,000 is due by April 15, 2025. You'll receive reminders as the due date approaches. Is there anything else you need?"
+41,R001,Remittance,Customer,"My daughter in London wants to send me money. How can she do that through MTN?"
+42,R001,Remittance,Bot,"Your daughter can send you money from London through several international money transfer services that partner with MTN Mobile Money. Our partners include WorldRemit, Western Union, MoneyGram, and Remitly. Once she sends the money, it will be deposited directly into your MTN Mobile Money wallet. Would you like details on a specific service she could use?"
+43,R001,Remittance,Customer,"Yes, please tell me about WorldRemit. She mentioned that one."
+44,R001,Remittance,Bot,"WorldRemit is an excellent choice for sending money from the UK to Uganda. Here's how it works:
+1. Your daughter needs to create an account on WorldRemit's website or mobile app
+2. She'll select Uganda as the destination country and MTN Mobile Money as the delivery method
+3. She'll enter your MTN number (beginning with 077 or 078)
+4. She'll choose the amount to send in GBP (British Pounds)
+5. She can pay using her debit card, credit card, or bank transfer
+6. Once processed, you'll receive the money directly in your MTN Mobile Money wallet, usually within minutes
+Would you like me to send these instructions to your daughter via SMS?"
+45,R001,Remittance,Customer,"That would be helpful. Her name is Sarah and her number is +44 7700 900123."
+46,R001,Remittance,Bot,"I've sent the WorldRemit instructions to Sarah at +44 7700 900123. She should receive them shortly. When she initiates the transfer, you'll receive an SMS notification. Once the money arrives in your Mobile Money wallet, you can withdraw it at any MTN Mobile Money agent, transfer it to others, pay bills, or keep it in your wallet. Is there anything specific you'd like to know about receiving international transfers?"
+47,R002,Remittance,Customer,"How much will she have to pay in fees?"
+48,R002,Remittance,Bot,"WorldRemit's fees depend on the amount sent, but typically range from £2.99 to £4.99 for transfers from the UK to Uganda. The exchange rate offered is usually competitive and better than many banks. There are no fees for you to receive the money in Uganda - you'll get the full amount she sends. Would you like me to check the current exchange rate for GBP to UGX?"
+49,R002,Remittance,Customer,"Yes, please."
+50,R002,Remittance,Bot,"The current exchange rate is approximately 1 GBP = 4,700 UGX. This means if Sarah sends £100, you would receive about UGX 470,000 in your Mobile Money wallet. Please note that exchange rates fluctuate, so the actual rate at the time of transfer may vary slightly. Is there anything else you'd like to know about receiving money from abroad?"
+51,T001,Money Transfers,Customer,"I need to send money to my uncle, but he uses Airtel, not MTN. Is that possible?"
+52,T001,Money Transfers,Bot,"Yes, you can definitely send money to an Airtel user through MTN Mobile Money. This is called an 'off-net' or 'cross-network' transfer. You can send money directly to your uncle's Airtel number, and he'll receive it in his Airtel Money wallet. Would you like me to guide you through the process?"
+53,T001,Money Transfers,Customer,"Yes, please. I want to send him UGX 50,000."
+54,T001,Money Transfers,Bot,"Here's how to send UGX 50,000 to your uncle's Airtel number:
+1. Dial *165# on your phone
+2. Select option 1 for 'Send Money'
+3. Select option 3 for 'Other Networks'
+4. Select 'Airtel' from the list of networks
+5. Enter your uncle's Airtel number (starting with 075)
+6. Enter the amount: UGX 50,000
+7. Enter your reason for sending (optional)
+8. Confirm the details
+9. Enter your Mobile Money PIN to complete the transaction
+The transaction fee for sending UGX 50,000 to Airtel is UGX 1,600. Your uncle will receive the full UGX 50,000. Would you like to proceed with this transfer now?"
+55,T001,Money Transfers,Customer,"That fee seems high. Is there a cheaper way to send it?"
+56,T001,Money Transfers,Bot,"I understand your concern about the fee. Here are some alternatives:
+1. Mobile Money Promotion: We sometimes run promotions with reduced fees for cross-network transfers. Currently, there's a 25% discount on weekend transfers, which would reduce your fee to UGX 1,200 if you send on Saturday or Sunday.
+2. MoMoPay: If your uncle is near a merchant that accepts MoMoPay, you could send money to your uncle for free, and he could use it to pay at that merchant.
+3. Group Collections: If you regularly send money to multiple people, including Airtel users, our Group Collections feature might save you on total fees.
+Would any of these options work better for you?"
+57,T002,Money Transfers,Customer,"I need to send money to my friend who uses Airtel. Can I do that?"
+58,T002,Money Transfers,Bot,"Yes, you can send money to Airtel users through MTN Mobile Money. The process is simple:
+1. Dial *165# on your phone
+2. Select option 1 for 'Send Money'
+3. Select option 3 for 'Other Networks'
+4. Select 'Airtel' from the list of networks
+5. Enter your friend's Airtel number (starting with 075)
+6. Enter the amount you want to send
+7. Confirm the details and enter your Mobile Money PIN
+The transaction fee depends on the amount you send. Would you like to proceed with the transfer?"
+59,T002,Money Transfers,Customer,"Yes, I want to send UGX 100,000."
+60,T002,Money Transfers,Bot,"The transaction fee for sending UGX 100,000 to Airtel is UGX 3,200. Your friend will receive the full UGX 100,000. Please enter your Mobile Money PIN to confirm the transfer."
+61,T002,Money Transfers,Customer,"PIN entered."
+62,T002,Money Transfers,Bot,"Thank you. The transfer of UGX 100,000 to your friend's Airtel number has been completed. You'll receive an SMS confirmation shortly. Is there anything else you need?"
+63,A001,Account Status,Customer,"I'd like to check my Mobile Money account status and get a statement for the last 3 months."
+64,A001,Account Status,Bot,"I'd be happy to help you check your account status and get a statement. First, let me provide you with your current account information:
+MTN Mobile Money Wallet Balance: UGX 245,600
+Available MoKash Loan Limit: UGX 500,000
+MoKash Savings Balance: UGX 325,000 (earning 5% annual interest)
+Account Tier: Gold
+Monthly Transaction Volume: UGX 2,450,000 (current month)
+Would you like me to generate a 3-month statement for you?"
+65,A001,Account Status,Customer,"Yes, please generate the statement. Can I get it by email?"
+66,A001,Account Status,Bot,"I can send your 3-month statement by email. Please confirm the email address you'd like me to use."
+67,A001,Account Status,Customer,"Please send it to johndoe@gmail.com"
+68,A001,Account Status,Bot,"Thank you. To protect your account information, I need to verify your identity before sending the statement. Please enter your Mobile Money PIN."
+69,A001,Account Status,Customer,"PIN entered."
+70,A001,Account Status,Bot,"Thank you for verifying your identity. I've generated your 3-month statement and sent it to johndoe@gmail.com. You should receive it within the next 10 minutes. The statement includes all transactions from December 8, 2024, to March 8, 2025, including:
+- Mobile Money deposits and withdrawals
+- Money transfers (sent and received)
+- Bill payments
+- Airtime and data purchases
+- MoKash loan and savings transactions
+- Service fees
+Is there any specific transaction or category you'd like me to provide more details about?"
+71,A002,Account Status,Customer,"I want to check my current loan balance."
+72,A002,Account Status,Bot,"Your current loan balance is UGX 150,000, with a repayment amount of UGX 163,500 due by April 15, 2025. Would you like to make a repayment now?"
+73,A002,Account Status,Customer,"Not right now, just checking. Thanks!"
+74,A002,Account Status,Bot,"You're welcome! Let me know if you need any assistance with your loan repayment."
+75,A003,Account Status,Customer,"Can I upgrade my account tier?"
+76,A003,Account Status,Bot,"Yes, you can upgrade your account tier to increase your transaction limits. To upgrade, you'll need to visit an MTN service center with your ID and proof of income or residence. Would you like me to help you schedule an appointment?"
+77,A003,Account Status,Customer,"Not right now, but thanks for the info."
+78,A003,Account Status,Bot,"You're welcome! Let me know if you need any further assistance."
