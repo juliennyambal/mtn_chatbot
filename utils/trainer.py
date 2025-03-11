@@ -6,22 +6,24 @@ from utils.constants import *
 from utils.model_utils import *
 from unsloth import standardize_sharegpt, apply_chat_template, is_bfloat16_supported
 
+MOMO_DATASET = "mtn_bot_dataset/sharegpt_momo_dataset"
+
 class ModelTrainer:
     def __init__(self, model, tokenizer):
         self.model = model
         self.tokenizer = tokenizer
 
     def _load_dataset(self):
-        dataset = load_from_disk("mtn_bot_dataset/sharegpt_momo_dataset")
+        dataset = load_from_disk(MOMO_DATASET)
         return standardize_sharegpt(dataset)
 
     def _prepare_dataset(self, dataset):
         chat_template = """<|im_start|>system
-{SYSTEM}<|im_end|>
-<|im_start|>user
-{INPUT}<|im_end|>
-<|im_start|>assistant
-{OUTPUT}<|im_end|>"""
+                {SYSTEM}<|im_end|>
+                <|im_start|>user
+                {INPUT}<|im_end|>
+                <|im_start|>assistant
+                {OUTPUT}<|im_end|>"""
 
         return apply_chat_template(
             dataset,
