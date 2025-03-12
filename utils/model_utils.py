@@ -1,11 +1,7 @@
 from utils.exceptions import UnslothNotInstalledError
 from utils.constants import MAX_SEQ_LENGTH, MODEL_CONFIG, PEFT_CONFIG
 
-try:
-    from unsloth import FastLanguageModel  # type: ignore
-except ImportError:
-    raise UnslothNotInstalledError
-
+from unsloth import FastLanguageModel  # type: ignore
 
 def initialize_model():
     """Initialize and return the base model and tokenizer."""

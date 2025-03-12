@@ -1,3 +1,4 @@
+# MAX_SEQ_LENGTH = 2048
 MAX_SEQ_LENGTH = 2048
 
 MODEL_CONFIG = {
@@ -28,7 +29,7 @@ TRAINING_ARGS = {
     "lr_scheduler_type": "linear",
     "per_device_train_batch_size": 4,
     "gradient_accumulation_steps": 4,
-    "num_train_epochs": 5,
+    "num_train_epochs": 10,
     "logging_steps": 1,
     "optim": "adamw_8bit",
     "weight_decay": 0.01,

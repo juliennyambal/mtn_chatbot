@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o" -o ../../bin/llama-batched-bench  -Wl,-rpath,/home/ubuntu/mtn_chatbot/llama.cpp/bin: ../../common/libcommon.a ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 

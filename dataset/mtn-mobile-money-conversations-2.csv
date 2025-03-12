@@ -15,7 +15,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 14,S001,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster. Based on your savings goal for school fees, you might also be interested in our education insurance products. Would you like to learn more about protecting your daughter's education?"
 15,S001,Savings,Customer,"Not right now, maybe next time."
 16,S001,Savings,Bot,"No problem. Thank you for choosing MTN MoKash for your savings needs. Is there anything else I can assist you with today?"
-
 17,L001,Loans/Overdraft,Customer,"I need to pay for some emergency medical expenses. Can I get a quick loan through MTN?"
 18,L001,Loans/Overdraft,Bot,"I'm sorry to hear about the emergency. Yes, MTN MoKash offers quick loans to eligible customers. Based on your Mobile Money transaction history, you may qualify for a loan. Would you like to check your loan eligibility and available amount?"
 19,L001,Loans/Overdraft,Customer,"Yes, please check how much I can borrow."
@@ -32,7 +31,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 30,L001,Loans/Overdraft,Bot,"If you're unable to repay by the due date, additional fees may apply and it could affect your eligibility for future loans. The system will attempt to recover the amount from your Mobile Money wallet on the due date. If there are insufficient funds, you'll receive reminders and can make partial payments. If you anticipate difficulty repaying, please contact MTN customer service at 100 to discuss your options. Is there anything else you'd like to know about the repayment process?"
 31,L001,Loans/Overdraft,Customer,"No, that's all. Thank you."
 32,L001,Loans/Overdraft,Bot,"You're welcome. I hope the funds help with your medical emergency. Based on your situation, you might want to consider our health insurance options to help cover future medical expenses. Would you like information about MTN's affordable health coverage plans?"
-
 33,R001,Remittance,Customer,"My daughter in London wants to send me money. How can she do that through MTN?"
 34,R001,Remittance,Bot,"Your daughter can send you money from London through several international money transfer services that partner with MTN Mobile Money. Our partners include WorldRemit, Western Union, MoneyGram, and Remitly. Once she sends the money, it will be deposited directly into your MTN Mobile Money wallet. Would you like details on a specific service she could use?"
 35,R001,Remittance,Customer,"Yes, please tell me about WorldRemit. She mentioned that one."
@@ -56,7 +54,6 @@ Would you like me to send these instructions to your daughter via SMS?"
 44,R001,Remittance,Bot,"You'll receive an SMS notification on your MTN number as soon as the money is deposited into your Mobile Money wallet. The message will show the amount received in UGX, the sender's name, and your updated Mobile Money balance. Typically, transfers from WorldRemit arrive within minutes after being sent. Would you like me to set up an additional notification for remittance receipts?"
 45,R001,Remittance,Customer,"No, the SMS is enough. Thank you for your help."
 46,R001,Remittance,Bot,"You're welcome! Based on your interest in international money transfers, you might benefit from our MTN Homeland service, which offers special rates and benefits for regular remittance receivers. Would you like to learn more about this service?"
-
 47,T001,Money Transfers,Customer,"I need to send money to my uncle, but he uses Airtel, not MTN. Is that possible?"
 48,T001,Money Transfers,Bot,"Yes, you can definitely send money to an Airtel user through MTN Mobile Money. This is called an 'off-net' or 'cross-network' transfer. You can send money directly to your uncle's Airtel number, and he'll receive it in his Airtel Money wallet. Would you like me to guide you through the process?"
 49,T001,Money Transfers,Customer,"Yes, please. I want to send him UGX 50,000."
@@ -148,7 +145,6 @@ For example, if you set a limit of UGX 100,000, any Umeme bill under that amount
 78,A001,Account Status,Bot,"Thank you. To confirm, I'm setting up automatic payments for Umeme customer number 0123456789 with a monthly limit of UGX 100,000. Payments will be made automatically from your Mobile Money wallet whenever Umeme issues a bill that's within your limit. Please enter your Mobile Money PIN to authorize this setup."
 79,A001,Account Status,Customer,"PIN entered."
 80,A001,Account Status,Bot,"Thank you. Your automatic payment for Umeme has been successfully set up. You will receive an SMS confirmation shortly. Based on your transaction history, I notice you frequently send money to the same 3-5 people. Would you like to create a 'Favorite Recipients' list to make these transfers faster in the future?"
-
 81,S002,Savings,Customer,"I want to start saving for my son's university education. How does MoKash work?"
 82,S002,Savings,Bot,"Welcome to MTN MoKash! You can save money securely and earn interest of up to 5% per year. You can deposit as little as UGX 500. Would you like to set up a savings goal?"
 83,S002,Savings,Customer,"Yes, I'd like to save UGX 500,000 over the next year. Can I set up automatic monthly deposits?"
@@ -163,7 +159,6 @@ For example, if you set a limit of UGX 100,000, any Umeme bill under that amount
 92,S002,Savings,Bot,"I've set up reminders for you if a scheduled deposit is missed. Based on your education savings goal, you might be interested in our education insurance products. Would you like to learn more about protecting your son's education?"
 93,S002,Savings,Customer,"Not right now, thank you."
 94,S002,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster."
-
 95,L002,Loans/Overdraft,Customer,"I need a loan to pay for my sister's wedding. Can I get one through MTN?"
 96,L002,Loans/Overdraft,Bot,"Yes, MTN MoKash offers loans to eligible customers. Based on your Mobile Money transaction history, you may qualify for a loan. Would you like to check your loan eligibility and available amount?"
 97,L002,Loans/Overdraft,Customer,"Yes, please check how much I can borrow."
@@ -180,7 +175,6 @@ For example, if you set a limit of UGX 100,000, any Umeme bill under that amount
 108,L002,Loans/Overdraft,Bot,"If you're unable to repay by the due date, additional fees may apply and it could affect your eligibility for future loans. The system will attempt to recover the amount from your Mobile Money wallet on the due date. If there are insufficient funds, you'll receive reminders and can make partial payments. If you anticipate difficulty repaying, please contact MTN customer service at 100 to discuss your options. Is there anything else you'd like to know about the repayment process?"
 109,L002,Loans/Overdraft,Customer,"No, that's all. Thank you."
 110,L002,Loans/Overdraft,Bot,"You're welcome. I hope the funds help with your sister's wedding. Based on your situation, you might want to consider our event insurance options to help cover unexpected wedding expenses. Would you like information about MTN's affordable event coverage plans?"
-
 111,R002,Remittance,Customer,"My brother in Australia wants to send me money. How can he do that through MTN?"
 112,R002,Remittance,Bot,"Your brother can send you money from Australia through several international money transfer services that partner with MTN Mobile Money. Our partners include WorldRemit, Western Union, MoneyGram, and Remitly. Once he sends the money, it will be deposited directly into your MTN Mobile Money wallet. Would you like details on a specific service he could use?"
 113,R002,Remittance,Customer,"Yes, please tell me about Western Union. He mentioned that one."
@@ -235,7 +229,6 @@ Would you like me to guide you through this process step-by-step?"
 132,T002,Money Transfers,Bot,"I've sent step-by-step instructions to your phone. Your friend's Airtel number is 0751234567. The fee for this transfer is UGX 3,200, and your friend will receive UGX 30,000. Please confirm by entering your Mobile Money PIN."
 133,T002,Money Transfers,Customer,"PIN entered."
 134,T002,Money Transfers,Bot,"Thank you! Your transfer of UGX 30,000 to Airtel number 0751234567 has been completed successfully. You'll receive an SMS confirmation shortly. Based on your transfer history, you might be interested in our Frequent Sender Rewards program, which gives you points for every transfer that can be redeemed for airtime or data. Would you like to enroll in this program?"
-
 135,A002,Account Status,Customer,"I need to check my Mobile Money balance and see if there are any recent transactions."
 136,A002,Account Status,Bot,"I can help with that. Your current Mobile Money wallet balance is UGX 187,500. Would you like me to provide details of your recent transactions?"
 137,A002,Account Status,Customer,"Yes, please show me the last 5 transactions."
@@ -256,7 +249,6 @@ Would you like more details on any of these transactions or would you like to ge
 144,A002,Account Status,Bot,"Thank you. To confirm, I'm setting up automatic payments for Umeme customer number 0123456790. Payments will be made automatically from your Mobile Money wallet whenever Umeme issues a bill. Please enter your Mobile Money PIN to authorize this setup."
 145,A002,Account Status,Customer,"PIN entered."
 146,A002,Account Status,Bot,"Thank you. Your automatic payment for Umeme has been successfully set up. You will receive an SMS confirmation shortly. Based on your transaction history, I notice you frequently send money to the same 3-5 people. Would you like to create a 'Favorite Recipients' list to make these transfers faster in the future?"
-
 147,S003,Savings,Customer,"I want to save for a new motorcycle. How can MoKash help me?"
 148,S003,Savings,Bot,"Welcome to MTN MoKash! You can save money securely and earn interest of up to 5% per year. How much would you like to save, and when do you need the funds?"
 149,S003,Savings,Customer,"I need UGX 1,200,000 in 6 months. Can I set up automatic weekly deposits?"
@@ -288,7 +280,6 @@ Would you like more details on any of these transactions or would you like to ge
 174,L003,Loans/Overdraft,Bot,"There's no discount for early repayment, but repaying early helps improve your credit profile for future loan applications. The full repayment amount is still required regardless of when you repay. Is there anything else you'd like to know about the repayment process?"
 175,L003,Loans/Overdraft,Customer,"No, that's all. Thank you."
 176,L003,Loans/Overdraft,Bot,"You're welcome. I hope the funds help with your motorcycle repairs. Based on your situation, you might want to consider our accident insurance options to protect your motorcycle in the future. Would you like information about MTN's affordable motorcycle insurance plans?"
-
 177,R003,Remittance,Customer,"My cousin in Canada wants to send me money. Which service should she use?"
 178,R003,Remittance,Bot,"Your cousin can use several international money transfer services that partner with MTN Mobile Money, including WorldRemit, Western Union, MoneyGram, and Remitly. Each service has different fees and exchange rates. Would you like me to compare them for you?"
 179,R003,Remittance,Customer,"Yes, please compare WorldRemit and Remitly."
@@ -328,7 +319,6 @@ Would you like me to send these instructions to your cousin via SMS?"
 190,R003,Remittance,Bot,"You'll receive an SMS notification on your MTN number as soon as the money is deposited into your Mobile Money wallet. The message will show the amount received in UGX, the sender's name, and your updated Mobile Money balance. Typically, transfers from WorldRemit arrive within minutes after being sent. Would you like me to set up an additional notification for remittance receipts?"
 191,R003,Remittance,Customer,"No, the SMS is enough. Thank you for your help."
 192,R003,Remittance,Bot,"You're welcome! Based on your interest in international money transfers, you might benefit from our MTN Homeland service, which offers special rates and benefits for regular remittance receivers. Would you like to learn more about this service?"
-
 193,T003,Money Transfers,Customer,"I need to send UGX 100,000 to my sister who uses Orange. How can I do that?"
 194,T003,Money Transfers,Bot,"You can send money to your sister's Orange number through MTN Mobile Money's cross-network transfer service. Here's how:
 
@@ -378,7 +368,6 @@ Would you like more details on any of these benefits?"
 218,S004,Savings,Bot,"I've set up reminders for you if a scheduled deposit is missed. Based on your wedding savings goal, you might be interested in our event insurance products. Would you like to learn more about protecting your wedding expenses?"
 219,S004,Savings,Customer,"Not right now, thank you."
 220,S004,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster."
-
 221,L004,Loans/Overdraft,Customer,"I need a loan to start a small business. How much can I borrow?"
 222,L004,Loans/Overdraft,Bot,"MTN MoKash offers loans to eligible customers based on your Mobile Money transaction history. Would you like me to check your eligibility and available loan amount?"
 223,L004,Loans/Overdraft,Customer,"Yes, please check."
@@ -438,7 +427,6 @@ The transaction fee for sending UGX 80,000 to Orange is UGX 2,560. Your friend w
 254,T004,Money Transfers,Bot,"I've initiated the transfer of UGX 80,000 to your friend's Orange number 0701234567. Please confirm by entering your Mobile Money PIN."
 255,T004,Money Transfers,Customer,"PIN entered."
 256,T004,Money Transfers,Bot,"Thank you! Your transfer of UGX 80,000 to Orange number 0701234567 has been completed successfully. You'll receive an SMS confirmation shortly. Based on your transfer history, you might be interested in our Frequent Sender Rewards program, which gives you points for every transfer that can be redeemed for airtime or data. Would you like to enroll in this program?"
-
 257,A004,Account Status,Customer,"I'd like to check my Mobile Money balance and see if there are any recent transactions."
 258,A004,Account Status,Bot,"I can help with that. Your current Mobile Money wallet balance is UGX 312,750. Would you like me to provide details of your recent transactions?"
 259,A004,Account Status,Customer,"Yes, please show me the last 5 transactions."
@@ -459,7 +447,6 @@ Would you like more details on any of these transactions or would you like to ge
 266,A004,Account Status,Bot,"Thank you. To confirm, I'm setting up automatic payments for Umeme customer number 0123456790. Payments will be made automatically from your Mobile Money wallet whenever Umeme issues a bill. Please enter your Mobile Money PIN to authorize this setup."
 267,A004,Account Status,Customer,"PIN entered."
 268,A004,Account Status,Bot,"Thank you. Your automatic payment for Umeme has been successfully set up. You will receive an SMS confirmation shortly. Based on your transaction history, I notice you frequently send money to the same 3-5 people. Would you like to create a 'Favorite Recipients' list to make these transfers faster in the future?"
-
 269,S005,Savings,Customer,"I want to save for a new phone. How can MoKash help me?"
 270,S005,Savings,Bot,"Welcome to MTN MoKash! You can save money securely and earn interest of up to 5% per year. How much would you like to save, and when do you need the funds?"
 271,S005,Savings,Customer,"I need UGX 800,000 in 4 months. Can I set up automatic weekly deposits?"
@@ -472,7 +459,6 @@ Would you like more details on any of these transactions or would you like to ge
 278,S005,Savings,Bot,"You can withdraw from your MoKash savings account at any time by dialing *165# and selecting MoKash > Withdraw. There are no penalties for early withdrawal, but remember that the longer you save, the more interest you earn. Interest is calculated daily and paid monthly. Would you like to know about our higher interest rate options for longer-term savings?"
 279,S005,Savings,Customer,"No, that's all I needed for now. Thank you."
 280,S005,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster."
-
 281,L005,Loans/Overdraft,Customer,"I need a loan to buy furniture for my new house. How much can I borrow?"
 282,L005,Loans/Overdraft,Bot,"MTN MoKash offers loans to eligible customers based on your Mobile Money transaction history. Would you like me to check your eligibility and available loan amount?"
 283,L005,Loans/Overdraft,Customer,"Yes, please check."
@@ -489,7 +475,6 @@ Would you like more details on any of these transactions or would you like to ge
 294,L005,Loans/Overdraft,Bot,"If you're unable to repay by the due date, additional fees may apply and it could affect your eligibility for future loans. The system will attempt to recover the amount from your Mobile Money wallet on the due date. If there are insufficient funds, you'll receive reminders and can make partial payments. If you anticipate difficulty repaying, please contact MTN customer service at 100 to discuss your options. Is there anything else you'd like to know about the repayment process?"
 295,L005,Loans/Overdraft,Customer,"No, that's all. Thank you."
 296,L005,Loans/Overdraft,Bot,"You're welcome. I hope the funds help with your furniture purchase. Based on your situation, you might want to consider our home insurance options to protect your new belongings. Would you like information about MTN's affordable home insurance plans?"
-
 297,R005,Remittance,Customer,"My aunt in New Zealand wants to send me money. How can she do that through MTN?"
 298,R005,Remittance,Bot,"Your aunt can send you money from New Zealand through several international money transfer services that partner with MTN Mobile Money. Our partners include WorldRemit, Western Union, MoneyGram, and Remitly. Once she sends the money, it will be deposited directly into your MTN Mobile Money wallet. Would you like details on a specific service she could use?"
 299,R005,Remittance,Customer,"Yes, please tell me about Remitly. She mentioned that one."

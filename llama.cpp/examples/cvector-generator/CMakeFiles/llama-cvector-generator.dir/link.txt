@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o" -o ../../bin/llama-cvector-generator  -Wl,-rpath,/home/ubuntu/mtn_chatbot/llama.cpp/bin: ../../common/libcommon.a ../../bin/libllama.so ../../bin/libggml.so ../../bin/libggml-cpu.so ../../bin/libggml-base.so 

@@ -15,7 +15,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 14,S001,Savings,Bot,"You're welcome! Your savings journey is now underway. Remember, you can increase your deposit amount anytime to reach your goal faster. Based on your savings goal for school fees, you might also be interested in our education insurance products. Would you like to learn more about protecting your daughter's education?"
 15,S001,Savings,Customer,"Not right now, maybe next time."
 16,S001,Savings,Bot,"No problem. Thank you for choosing MTN MoKash for your savings needs. Is there anything else I can assist you with today?"
-
 17,L001,Loans/Overdraft,Customer,"I need to pay for some emergency medical expenses. Can I get a quick loan through MTN?"
 18,L001,Loans/Overdraft,Bot,"I'm sorry to hear about the emergency. Yes, MTN MoKash offers quick loans to eligible customers. Based on your Mobile Money transaction history, you may qualify for a loan. Would you like to check your loan eligibility and available amount?"
 19,L001,Loans/Overdraft,Customer,"Yes, please check how much I can borrow."
@@ -32,7 +31,6 @@ row_index,conversation_id,scenario_type,speaker,dialogue
 30,L001,Loans/Overdraft,Bot,"If you're unable to repay by the due date, additional fees may apply and it could affect your eligibility for future loans. The system will attempt to recover the amount from your Mobile Money wallet on the due date. If there are insufficient funds, you'll receive reminders and can make partial payments. If you anticipate difficulty repaying, please contact MTN customer service at 100 to discuss your options. Is there anything else you'd like to know about the repayment process?"
 31,L001,Loans/Overdraft,Customer,"No, that's all. Thank you."
 32,L001,Loans/Overdraft,Bot,"You're welcome. I hope the funds help with your medical emergency. Based on your situation, you might want to consider our health insurance options to help cover future medical expenses. Would you like information about MTN's affordable health coverage plans?"
-
 33,R001,Remittance,Customer,"My daughter in London wants to send me money. How can she do that through MTN?"
 34,R001,Remittance,Bot,"Your daughter can send you money from London through several international money transfer services that partner with MTN Mobile Money. Our partners include WorldRemit, Western Union, MoneyGram, and Remitly. Once she sends the money, it will be deposited directly into your MTN Mobile Money wallet. Would you like details on a specific service she could use?"
 35,R001,Remittance,Customer,"Yes, please tell me about WorldRemit. She mentioned that one."
